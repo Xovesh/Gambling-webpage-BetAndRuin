@@ -3,16 +3,20 @@ Gambling webpage with a three-layer architecture and client-server based. Langua
 
 # How to run the project
 
-execute: src/webServerV3/SimpleHTTPServer
+1.- Execute: src/webServerV3/SimpleHTTPServer
 
-In Google Chrome/Firefox search for: 
+2.- Open your favourite web browser and search for:
 
   - "localhost" for the costumer GUI
   - "localhost/administration" for the administration GUI
+ 
+ # Testing
 
 For testing:
 
   - Username: tractor
   - Password: Patata
+  
+# help
 
 If any help needed: carlosdbmac@gmail.com
