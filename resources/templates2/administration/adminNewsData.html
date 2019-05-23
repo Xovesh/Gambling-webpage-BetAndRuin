@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>BetAndRuin</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            font: 12px/15px Roboto, "Helvetica Neue", Helvetica, sans-serif;
+            padding: 20px;
+            background-color: #a1c4fd;
+        }
+
+        #wrapper {
+            margin: 0 auto;
+        }
+
+        select,
+        input,
+        .btn {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        .navbar {
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+        }
+
+        .panel {
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+        }
+
+        .panel-heading {
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">BetAndRuin</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="/administration/adminmain">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Events
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/administration/adminEventSettings">Settings</a></li>
+                        <li><a href="/administration/adminallevents">All events</a></li>
+                        <li><a href="/administration/adminalleventsbycanbet">All events By can Bet</a></li>
+                        <li><a href="/administration/adminunresolvedevents">Unresolved Events</a></li>
+                        <li><a href="/administration/adminresolvedevents">Resolved Events</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Users
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/administration/adminusers">All Users</a></li>
+                        <li><a href="/administration/bannedusers">Banned Users</a></li>
+                    </ul>
+                </li>
+                <li class="active"><a href="/administration/adminnews">News</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Create
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/administration/admincreateevent">Event</a></li>
+                        <li><a href="/administration/admincreatenews">News</a></li>
+                    </ul>
+                </li>
+                <li><a href="/administration/adminstatistics">Statistics</a></li>
+                <li><a href="/administration/adminserverstatus">Server Status</a></li>
+                <li><a href="/administration/adminsettings">Settings</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/administration/logout"><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="panel panel-default" id="preview">
+        <div class="panel-heading">
+            <h1>Preview</h1>
+        </div>
+        <div class="panel-body">
+            <h2>Language:</h2>
+            <br>
+            <h4>ES</h4>
+            <hr>
+            <h2>Date:</h2>
+            <br>
+            <h4>3/19/2019</h4>
+            <hr>
+            <h2>Head:</h2>
+            <br>
+            <h4>Welcome!</h4>
+            <hr>
+            <h2>Content:</h2>
+            <br>
+            <h4>This is betandruin.eus</h4>
+            <hr>
+            <h2>Picture:</h2>
+            <br>
+            <img alt="The image does not exist" width="400" height="400" src="https://user-images.githubusercontent.com/24848110/33519396-7e56363c-d79d-11e7-969b-09782f5ccbab.png">
+        </div>
+    </div>
+    <div class="panel panel-default" id="update">
+        <div class="panel-heading">
+            <h1>Modify news</h1>
+        </div>
+        <div class="panel-body">
+            <form action="/administration/adminnewsupdate" method="post">
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        <label for="head"><h4>Head</h4></label>
+                        <input type="text" class="form-control" name="head"
+                               id="head" placeholder="Head" value="Welcome!">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        <label for="content"><h4>Content</h4></label>
+                        <textarea rows="10" class="form-control" name="content" id="content"
+                                  placeholder="Content">This is betandruin.eus</textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        <label for="picture"><h4>Picture link</h4></label>
+                        <input type="text" class="form-control" name="picture" id="picture"
+                               placeholder="picture"
+                               value="https://user-images.githubusercontent.com/24848110/33519396-7e56363c-d79d-11e7-969b-09782f5ccbab.png">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-xs-4">
+                        <label for="language"><h4>Language</h4></label>
+                        <select class="form-control" name="language" id="language">
+                            <option value="ES">Spanish</option>
+                            <option value="EUS">Basque</option>
+                            <option value="EN">English</option>
+                        </select>
+                    </div>
+                </div>
+                <input type="hidden" name="newsid" value="1">
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        <hr>
+                        <button class="btn btn-lg btn-success" type="submit"><i
+                                class="glyphicon glyphicon-ok-sign"></i> Update
+                        </button>
+                        <button class=" btn btn-lg" type="reset"><i
+                                class="glyphicon glyphicon-repeat"></i> Reset
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="panel panel-default" id="delete">
+        <div class="panel-heading">
+            <h1>Delete News</h1>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="form-group">
+                    <div class="col-xs-6">
+                        <div class="form-group text-left">
+                            <form method="post" action="/administration/adminnewsdelete">
+                                <input type="hidden" name="newsid" value="1">
+                                <button class="btn btn-lg btn-danger" type="submit"><i
+                                        class="glyphicon glyphicon-ok-sign"></i>Delete News
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

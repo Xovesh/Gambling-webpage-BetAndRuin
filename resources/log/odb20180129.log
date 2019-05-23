@@ -1,0 +1,34 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-29 13:22:04 #1 server] 
+Server on port 6136 has started by 1040@U030098
+
+[2018-01-29 13:22:10 #2 store] 
+Database 'C:\Users\ehu\Desktop\Bets\libs\db\resources\bets.temp' is opened by 1040@U030098
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-29 13:22:10 #1 type.registry] 
+New type domain.Question
+
+[2018-01-29 13:22:10 #2 type] 
+Type domain.Question is not enhanced.
+
+[2018-01-29 13:22:10 #3 type.registry] 
+New type domain.Event
+
+[2018-01-29 13:22:10 #4 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-29 13:22:10 #5 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2018-01-29 13:22:11 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2018-01-29 13:23:56 #3 store] 
+Database 'C:\Users\ehu\Desktop\Bets\libs\db\resources\bets.temp' is closed by 1040@U030098
+
+[2018-01-29 13:24:11 #4 server] 
+Server on port 6136 has stopped by 1040@U030098
+

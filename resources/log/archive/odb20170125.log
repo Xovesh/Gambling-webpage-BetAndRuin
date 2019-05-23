@@ -1,0 +1,42 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2017-01-25 13:17:57 #1 type.registry] 
+New type domain.RuralHouse
+
+[2017-01-25 13:17:57 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2017-01-25 13:17:57 #3 type.registry] 
+New type domain.Offer
+
+[2017-01-25 13:17:57 #4 type.registry] 
+New type java.util.Vector<domain.Offer>
+
+[2017-01-25 13:17:57 #5 type] 
+Type domain.Offer is not enhanced.
+
+[2017-01-25 13:17:57 #6 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2017-01-25 13:19:53 #1 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2017-01-25 13:19:53 #2 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2017-01-25 13:46:44 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/RuralHouse-2017/landetxeak2.temp' has been recovered (tr. 1-5)
+
+[2017-01-25 13:46:44 #2 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/RuralHouse-2017/landetxeak2.temp' is opened by 4798@imacRetinaJon.local
+
+[2017-01-25 13:46:44 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2017-01-25 13:46:44 #4 type] 
+Type domain.Offer is not enhanced.
+

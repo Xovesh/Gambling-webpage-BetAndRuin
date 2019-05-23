@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="eu">
+
+<head>
+    <meta charset="utf-8" />
+    <title>BetAndRuin</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <style>
+            body {
+                font: 12px/15px Roboto, "Helvetica Neue", Helvetica, sans-serif;
+
+                background-color: #222;
+                border-color: #080808;
+                color: #777;
+            }
+
+            #navIcon {
+                padding:0.5em;
+                float: right;
+            }
+
+             #currentPoints{
+                padding:1.3em;
+                float: right;
+            }
+
+            #logOut {
+            float:right;
+        }
+
+            .user-details {
+            position: relative;
+            padding: 0;
+        }
+
+        .user-details .user-image {
+            position: relative;
+            z-index: 1;
+            width: 300%;
+            text-align: center;
+        }
+
+        .user-image img {
+            clear: both;
+            margin: auto;
+            position: relative;
+            background: white;
+            border: 1px solid white;
+        }
+
+        .user-details .user-info-block {
+            width: 300%;
+            position: absolute;
+            top: 55px;
+            background: rgb(255, 255, 255);
+            z-index: 0;
+            padding-top: 50px;
+            border-radius: 30px;
+            margin-bottom: 50px;
+        }
+
+        .user-info-block .user-heading {
+            width: 100%;
+            text-align: center;
+            margin: 10px 0 0;
+        }
+
+        .user-info-block .user-body {
+            float: left;
+            padding: 5%;
+            width: 100%;
+        }
+
+
+        </style>
+</head>
+
+<body>
+        <div id="wrapper">
+                <nav class="navbar navbar-default navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/mainPage">BetAndRuin</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="/mainPage">Hasiera</a></li>
+                <li><a href="/userprofile">Profila</a></li>
+                <li><a href="/purchasepoints">Erosi puntuak</a></li>
+                <li><a href="/cashout">Puntuak atera</a></li>
+                <li><a href="/userpayments">Ordainketak</a></li>
+                <li><a href="/settings">Opzioak</a></li>
+                <li><a href="/userbets">Apostuak</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a id="logOut" href="/logout"><span class="glyphicon glyphicon-log-out"></span> Atera</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+                        Hizkuntza selekzioa
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/changeLanguage/ES">Gaztelera(Español)</a></li>
+                        <li><a href="/changeLanguage/EN">Ingelera(English)</a></li>
+                        <li><a href="/changeLanguage/EUS">Euskera(Euskera)</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><i id="navIcon" class="fas fa-coins fa-2x"></i>
+                    <div id="currentPoints">999920</div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+                <div class="container">
+                        <div class="row">
+                            <div class="col-sm-4 col-md-4 user-details">
+                                <div class="user-image">
+                                    <img src="https://i0.wp.com/www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png?fit=256%2C256&amp;quality=100&amp;ssl=1"
+                                         alt="User profile image" title="User profile image" class="img-circle" width="100" height="100">
+                                </div>
+                                <div class="user-info-block">
+                                    <div class="user-heading" id="headingInfo">
+                                        <h1>Erabiltzaile izena</h1>
+                                        <h4>Abizena</h4>
+                                        <span>Donostia</span>
+                                    </div>
+                                    <div class="user-body">
+                                            <table class="table">
+                                                    <tbody class="userinfo" id="userInformation">
+                                        
+                                                    <tr>
+                                                        <th scope="row">Erabiltzaile izena</th>
+                                                        <td>Erabiltzaile izena</td>
+                                                    </tr>
+                                                    <tr>
+                                                            <th scope="row">Izena</th>
+                                                            <td>Izena</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">Abizena</th>
+                                                            <td>Abizena</td>
+                                                        </tr>
+                                                    <tr>
+                                                        <th scope="row">Jahiotze data</th>
+                                                        <td>2005-03-02</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Emaila</th>
+                                                        <td>email@gmail.com</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Telefono zenbakia</th>
+                                                        <td>524310306</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Herrialdea</th>
+                                                        <td>Spain</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Hiria</th>
+                                                        <td>Donostia</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Helbidea</th>
+                                                        <td>Somewhere in Donostia</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Puntuak</th>
+                                                        <td>0.0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Gustuko kirolak</th>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Gustuko taldeak</th>
+                                                        <td></td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
+
+                    
+            </div>
+
+        </body>
+        
+        </html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>BetAndRuin</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <style>
+        body {
+            font: 12px/15px Roboto, "Helvetica Neue", Helvetica, sans-serif;
+            background-color: #222;
+            border-color: #080808;
+            color: #777;
+        }
+
+        #navIcon {
+            padding: 0.5em;
+            float: right;
+        }
+
+        #logOut {
+            float: right;
+        }
+
+        #currentPoints {
+            padding: 1.3em;
+            float: right;
+        }
+
+        .input-group {
+            padding: 5px;
+        }
+
+        /*
+        .panel > .panel-heading, .panel-body  {
+            background-color: #222;
+            border-color: #080808;
+            color: #777;
+        }
+        */
+
+    </style>
+</head>
+
+<body>
+<script>
+    function validatePoints() {
+        var text = $('#pointsLimit').text();
+        var x = parseInt(text, 10);
+        var y = Number(document.getElementById("pointsToRemove").value);
+        if (y > x) {
+            document.getElementById("proceedBtn").setAttribute("disabled", "disabled");
+        } else {
+            document.getElementById("proceedBtn").removeAttribute("disabled");
+        }
+    }
+
+</script>
+
+
+<div id="wrapper">
+    <nav class="navbar navbar-default navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/mainPage">BetAndRuin</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="/mainPage">HomePage</a></li>
+                <li><a href="/userprofile">Profile Info</a></li>
+                <li><a href="/purchasepoints">Purchase points</a></li>
+                <li><a href="/cashout">Cash Out</a></li>
+                <li><a href="/userpayments">Payments</a></li>
+                <li><a href="/settings">Settings</a></li>
+                <li><a href="/userbets">Bets</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a id="logOut" href="/logout"><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+                        Select Language
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/changeLanguage/ES">Spanish(Español)</a></li>
+                        <li><a href="/changeLanguage/EN">English(English)</a></li>
+                        <li><a href="/changeLanguage/EUS">Basque(Euskera)</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><i id="navIcon" class="fas fa-coins fa-2x"></i>
+                    <div id="currentPoints">999920</div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+
+            <div class="col-xs-6 col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading text-center">
+                        <h4>Cash out</h4>
+                    </div>
+                    <div class="panel-body">
+                        <div>
+                            <p>Current points: </p><span id="pointsLimit"><b>10</b></span>
+                            <p></p>
+                            <p>Monetary value: </p><span id="pointsValue"><b>100</b></span>
+                        </div>
+                        <p></p>
+                        <h5><b>Please enter bank account details</b></h5>
+                        <form pattern="[^&]+" role="form" method="POST" action="/removePoints">
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-addon">
+                                    <span class="input-group-text text-muted">
+                                            <i class="fas fa-user-tie"></i>
+                                    </span>
+                                    </div>
+                                    <input type="text" required class="form-control" placeholder="Account Holders Name"
+                                           name="accountHolder">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-addon">
+                                    <span class="input-group-text text-muted">
+                                            <i class="fas fa-money-check-alt"></i>
+                                    </span>
+                                    </div>
+                                    <input type="text" required class="form-control" placeholder="Account number"
+                                           name="account">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-addon">
+                                    <span class="input-group-text text-muted">
+                                         <b>IBAN</b>
+                                    </span>
+                                    </div>
+                                    <input type="text" required class="form-control" placeholder="IBAN" name="IBAN">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-addon">
+                                    <span class="input-group-text text-muted">
+                                            <b>SWIFT</b>
+                                    </span>
+                                    </div>
+                                    <input type="text" required class="form-control" placeholder="SWIFT/BIC code"
+                                           name="SWIFT">
+                                </div>
+                            </div>
+                            <div>
+                                <h5><b>Please enter amount of points to be converted</b></h5>
+                                <div class="form-group"></div>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-addon">
+                                    <span class="input-group-text text-muted">
+                                            <i class="fas fa-coins"></i>
+                                    </span>
+                                    </div>
+                                    <input id="pointsToRemove" type="number" class="form-control" min="1"
+                                           name="convertPoints" onkeypress="return event.charCode >= 48"
+                                           onkeydown="javascript: return event.keyCode == 69 ? false : true"
+                                           oninput="validatePoints()">
+                                </div>
+                            </div>
+                            <button id="proceedBtn" class="btn btn-primary" type="submit">Proceed</button>
+                        </form>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,191 @@
+<html lang="es">
+
+<head>
+    <title>¡Bienvenid@ a BetandRuin!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style type="text/css">
+
+        /*Navbar body fix*/
+        body {
+            padding-top: 55px;
+            background-color: #222;
+            border-color: #080808;
+            color: #777;
+        }
+
+        /*Carousel image keep carousel width*/
+        .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+            width: 100%;
+            height: 800px;
+        }
+
+        .carousel-caption {
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .carousel {
+            width: 100%;
+            /*height: 100%;*/
+        }
+
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <!--Top navbar-->
+        <div class="col-xs-12">
+            <nav class="navbar navbar-inverse navbar-fixed-top navar-expand-lg">
+                <div class="container-fluid">
+                    <a href="/" class="navbar-brand">BetAndRuin</a>
+                    <div class="collapse navbar-collapse" id="navbarTogglerMain">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active">
+                                <button type="button" class="btn btn-info btn-lg" data-toggle="modal"
+                                        data-target="#myModal">Contactar soporte
+                                </button>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown">
+                                    Seleccionar Idioma
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/changeLanguage/ES">Español(Español)</a></li>
+                                    <li><a href="/changeLanguage/EN">Inglés(English)</a></li>
+                                    <li><a href="/changeLanguage/EUS">Euskera(Euskera)</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--Carousel-->
+        <div class="col-sm-8">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" id="news">
+                    <div class="item active">
+                        <img src="https://cdn.allwallpaper.in/wallpapers/960x640/6520/american-football-nfl-sports-960x640-wallpaper.jpg"
+                             alt="Image1">
+                        <div class="carousel-caption">
+                            <h3>Ahora ya puedes disfrutar de la NFL en BetAndRuin!</h3>
+                            <p>¡Registrate!¡No te lo pierdas!</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="http://www.aljanh.net/data/archive/img/4151477300.jpeg"
+                             alt="Image2">
+                        <div class="carousel-caption">
+                            <h3>Fútbol</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eleifend maximus congue.
+                                Donec sed semper ex. Duis sagittis nibh elit, convallis aliquet purus aliquam eget.
+                                Vestibulum at eros auctor, sodales augue sit amet, fermentum tortor. Nam eget ex ornare,
+                                condimentum eros a, rhoncus lacus. Sed vel libero eu eros pretium tempus. Vestibulum
+                                consequat fermentum nunc, id congue purus semper ut. Pellentesque maximus turpis dolor,
+                                a eleifend tellus consectetur non. In faucibus nibh id molestie tristique. Integer
+                                fermentum molestie diam non vulputate. Nulla iaculis, orci ut porttitor porta, augue
+                                purus feugiat mi, non commodo dui nibh et sem. Duis orci dolor, pellentesque eget
+                                malesuada ut, suscipit vitae mauris.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="http://statelywallpaper.com/wp-content/uploads/2018/03/Basketball-Court-4K-960x640.jpg"
+                             alt="Bets">
+                        <div class="carousel-caption">
+                            <h3>Baloncesto</h3>
+                            <p>Test con link. <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1"
+                                                    target="_blank">Click aqui</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+        </div>
+        <!--Sign in navbar-->
+        <div class="col-sm-4" align="center">
+            <h2>Iniciar sesión</h2>
+            <form method="post" action="/userlogin">
+                    <div class="form-body">
+                        <div class="form-group">
+                            <label for="username">Nombre de usuario:</label>
+                            <input type="text" class="form-control" id="username" name="username"
+                                   placeholder="Enter username">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Contraseña:</label>
+                            <input type="password" class="form-control" id="pwd" name="password"
+                                   placeholder="Enter password">
+                        </div>
+
+                        <span class="help-block">
+
+  						Iniciando sesión aceptas nuestros 
+  						<a href="#" onclick="window.open('/Termly-Website-Terms-and-Conditions-Template.pdf', '_blank', 'fullscreen=yes'); return false;"> Terminos de servicio </a>
+  					        </span>
+
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" id="checkbox" value="selected"> Recordarme
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                    </div>
+            </form>
+            <br>
+            <div class="d-flex justify-content-center links">
+                ¿No tienes una cuenta?<a href="/signUp">Registrarse</a>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a href="/PasswordRecovery">¿Olvidado tu contraseña?</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Modal to display on contact support press-->
+<!-- Modal to display on contact support press-->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times</button>
+                <h4 class="modal-title">Información de contacto</h4>
+            </div>
+            <div class="modal-body" id="info">
+                <p>Información de contacto:</p>
+                <p>Email:Test@test.test.tst</p>
+                <p>Número de teléfono:555-555-55-55.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>BetAndRuin</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <style>
+
+        body {
+            font: 12px/15px Roboto, "Helvetica Neue", Helvetica, sans-serif;
+            background-color: #222;
+            border-color: #080808;
+            color: #777;
+        }
+
+        #navIcon {
+            padding: 0.5em;
+            float: right;
+        }
+
+        #logOut {
+            float: right;
+        }
+
+        #currentPoints {
+            padding: 1.3em;
+            float: right;
+        }
+
+        #paymentHead {
+            padding: 0;
+            border-color: #777;
+            border-width: 2px;
+        }
+    </style>
+</head>
+
+<body>
+<div id="wrapper">
+    <nav class="navbar navbar-default navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/mainPage">BetAndRuin</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="/mainPage">HomePage</a></li>
+                <li><a href="/userprofile">Profile Info</a></li>
+                <li><a href="/purchasepoints">Purchase points</a></li>
+                <li><a href="/cashout">Cash Out</a></li>
+                <li><a href="/userpayments">Payments</a></li>
+                <li><a href="/settings">Settings</a></li>
+                <li><a href="/userbets">Bets</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a id="logOut" href="/logout"><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+                        Select Language
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/changeLanguage/ES">Spanish(Español)</a></li>
+                        <li><a href="/changeLanguage/EN">English(English)</a></li>
+                        <li><a href="/changeLanguage/EUS">Basque(Euskera)</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><i id="navIcon" class="fas fa-coins fa-2x"></i>
+                    <div id="currentPoints">999920</div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div>
+        <pre id="paymentHead" class="text-center"><h3>Payment history</h3></pre>
+    </div>
+    <div>
+        <table class="table table-condensed">
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Payment type</th>
+                <th>Amount in euros</th>
+                <th>Date</th>
+            </tr>
+            </thead>
+            <tbody id="paymentHistory">
+            <tr class="danger">
+                <td>223</td>
+                <td>Take money out</td>
+                <td>-50</td>
+                <td>14-03-2019 23:14</td>
+            </tr>
+            <tr class="success">
+                <td>221</td>
+                <td>Buy points</td>
+                <td>+50</td>
+                <td>12-03-2019 12:23</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+
+</html>

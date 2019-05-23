@@ -1,0 +1,204 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-01-31 07:22:36 #1 store] 
+Database '/home/txus/eclipse-workspace/SOFTENG/Bets/db/bets.odb' is opened by 14506@txus-PS42
+
+[2019-01-31 07:22:36 #2 type.registry] 
+New type domain.Question
+
+[2019-01-31 07:22:36 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-01-31 07:22:36 #4 type.registry] 
+New type domain.Event
+
+[2019-01-31 07:22:36 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-01-31 07:22:36 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2019-01-31 07:22:36 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-01-31 07:33:22 #1 store] 
+Database '/home/txus/eclipse-workspace/SOFTENG/BetAndRuin/db/bets.odb' has been recovered (tr. 1-5)
+
+[2019-01-31 07:33:23 #2 store] 
+Database '/home/txus/eclipse-workspace/SOFTENG/BetAndRuin/db/bets.odb' is opened by 14702@txus-PS42
+
+[2019-01-31 07:33:23 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-01-31 07:33:23 #4 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-01-31 07:35:57 #1 store] 
+Database '/home/txus/eclipse-workspace/SOFTENG/BetAndRuin/db/bets.odb' is opened by 14792@txus-PS42
+
+[2019-01-31 07:35:57 #2 type.registry] 
+New type domain.Question
+
+[2019-01-31 07:35:57 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-01-31 07:35:57 #4 type.registry] 
+New type domain.Event
+
+[2019-01-31 07:35:57 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-01-31 07:35:57 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2019-01-31 07:35:57 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-01-31 07:44:22 #1 store] 
+Database '/home/txus/eclipse-workspace/SOFTENG/BetAndRuin/db/bets.odb' has been recovered (tr. 1-5)
+
+[2019-01-31 07:44:22 #2 store] 
+Database '/home/txus/eclipse-workspace/SOFTENG/BetAndRuin/db/bets.odb' is opened by 15020@txus-PS42
+
+[2019-01-31 07:44:22 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-01-31 07:44:22 #4 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-01-31 08:11:01 #1 store] 
+Database '/home/txus/eclipse-workspace/SOFTENG/BetAndRuin/resources/db/bets.odb' is opened by 16126@txus-PS42
+
+[2019-01-31 08:11:01 #2 type] 
+Type domain.Question is not enhanced.
+
+[2019-01-31 08:11:01 #3 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-01-31 08:36:56 #1 store] 
+Database '/home/txus/eclipse-workspace/SOFTENG/BetAndRuin/resources/db/bets.odb' is opened by 16676@txus-PS42
+
+[2019-01-31 08:36:56 #2 type.registry] 
+New type domain.Question
+
+[2019-01-31 08:36:56 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-01-31 08:36:56 #4 type.registry] 
+New type domain.Event
+
+[2019-01-31 08:36:56 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-01-31 08:36:56 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2019-01-31 08:36:56 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-01-31 08:40:33 #1 store] 
+Database '/home/txus/eclipse-workspace/SOFTENG/BetAndRuin/resources/db/bets.odb' is opened by 16784@txus-PS42
+
+[2019-01-31 08:40:33 #2 type.registry] 
+New type domain.Question
+
+[2019-01-31 08:40:33 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-01-31 08:40:33 #4 type.registry] 
+New type domain.Event
+
+[2019-01-31 08:40:33 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-01-31 08:40:33 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2019-01-31 08:40:33 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-01-31 08:46:13 #1 store] 
+Database '/home/txus/eclipse-workspace/SOFTENG/BetAndRuin/resources/db/bets.odb' has been recovered (tr. 1-5)
+
+[2019-01-31 08:46:14 #2 store] 
+Database '/home/txus/eclipse-workspace/SOFTENG/BetAndRuin/resources/db/bets.odb' is opened by 16942@txus-PS42
+
+[2019-01-31 08:46:14 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-01-31 08:46:14 #4 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-01-31 08:47:26 #1 store] 
+Database '/home/txus/eclipse-workspace/SOFTENG/BetAndRuin/resources/db/bets.odb' is opened by 17008@txus-PS42
+
+[2019-01-31 08:47:26 #2 type] 
+Type domain.Question is not enhanced.
+
+[2019-01-31 08:47:26 #3 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-01-31 09:23:42 #1 store] 
+Database '/home/txus/eclipse-workspace/SOFTENG/BetAndRuin/resources/db/bets.odb' is opened by 17527@txus-PS42
+
+[2019-01-31 09:23:42 #2 type.registry] 
+New type domain.Question
+
+[2019-01-31 09:23:42 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-01-31 09:23:42 #4 type.registry] 
+New type domain.Event
+
+[2019-01-31 09:23:42 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-01-31 09:23:42 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2019-01-31 09:23:42 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-01-31 09:24:28 #1 store] 
+Database '/home/txus/eclipse-workspace/SOFTENG/BetAndRuin/resources/db/bets.odb' has been recovered (tr. 1-5)
+
+[2019-01-31 09:24:28 #2 store] 
+Database '/home/txus/eclipse-workspace/SOFTENG/BetAndRuin/resources/db/bets.odb' is opened by 17583@txus-PS42
+
+[2019-01-31 09:24:28 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-01-31 09:24:28 #4 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-01-31 09:34:28 #1 store] 
+Database '/home/txus/eclipse-workspace/SOFTENG/BetAndRuin/resources/db/bets.odb' is opened by 17794@txus-PS42
+
+[2019-01-31 09:34:28 #2 type] 
+Type domain.Question is not enhanced.
+
+[2019-01-31 09:34:28 #3 type] 
+Type domain.Event is not enhanced.
+

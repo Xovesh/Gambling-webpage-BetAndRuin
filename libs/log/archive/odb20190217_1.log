@@ -1,0 +1,893 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 10:24:29 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 10664@DESKTOP-F3FKHV4
+
+[2019-02-17 10:24:29 #2 type.registry] 
+New type domain.Question
+
+[2019-02-17 10:24:29 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-02-17 10:24:29 #4 type.registry] 
+New type domain.Event
+
+[2019-02-17 10:24:29 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-02-17 10:24:29 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2019-02-17 10:24:29 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 10:24:43 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' has been recovered (tr. 1-5)
+
+[2019-02-17 10:24:43 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 4940@DESKTOP-F3FKHV4
+
+[2019-02-17 10:24:43 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-02-17 10:24:43 #4 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 11:40:47 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\db\UsersDB.odb' is opened by 10092@DESKTOP-F3FKHV4
+
+[2019-02-17 11:40:48 #2 type.registry] 
+New type domain.User
+
+[2019-02-17 11:40:48 #3 type] 
+Type domain.User is not enhanced.
+
+[2019-02-17 11:40:48 #4 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2019-02-17 11:40:48 #5 type.registry] 
+New type java.util.LinkedList<java.lang.String>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 11:41:44 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 11776@DESKTOP-F3FKHV4
+
+[2019-02-17 11:41:44 #2 type.registry] 
+New type domain.User
+
+[2019-02-17 11:41:44 #3 type] 
+Type domain.User is not enhanced.
+
+[2019-02-17 11:41:44 #4 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2019-02-17 11:41:44 #5 type.registry] 
+New type java.util.LinkedList<java.lang.String>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 11:48:44 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 4180@DESKTOP-F3FKHV4
+
+[2019-02-17 11:48:44 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:01:26 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 5376@DESKTOP-F3FKHV4
+
+[2019-02-17 12:01:26 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:03:27 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 6184@DESKTOP-F3FKHV4
+
+[2019-02-17 12:03:27 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:03:46 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 1540@DESKTOP-F3FKHV4
+
+[2019-02-17 12:03:46 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:04:16 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 12492@DESKTOP-F3FKHV4
+
+[2019-02-17 12:04:16 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:23:19 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 8788@DESKTOP-F3FKHV4
+
+[2019-02-17 12:23:20 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:24:34 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 6332@DESKTOP-F3FKHV4
+
+[2019-02-17 12:24:34 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:25:51 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 11-11)
+
+[2019-02-17 12:25:51 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 2644@DESKTOP-F3FKHV4
+
+[2019-02-17 12:25:51 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:26:52 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 1932@DESKTOP-F3FKHV4
+
+[2019-02-17 12:26:53 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:27:07 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 5632@DESKTOP-F3FKHV4
+
+[2019-02-17 12:27:07 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:27:09 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 5272@DESKTOP-F3FKHV4
+
+[2019-02-17 12:27:09 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:27:34 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 8216@DESKTOP-F3FKHV4
+
+[2019-02-17 12:27:34 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:28:04 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 12-12)
+
+[2019-02-17 12:28:04 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 11964@DESKTOP-F3FKHV4
+
+[2019-02-17 12:28:04 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:28:06 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 13-13)
+
+[2019-02-17 12:28:06 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 10580@DESKTOP-F3FKHV4
+
+[2019-02-17 12:28:06 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:28:15 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 14-14)
+
+[2019-02-17 12:28:15 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 11168@DESKTOP-F3FKHV4
+
+[2019-02-17 12:28:16 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:28:17 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 15-15)
+
+[2019-02-17 12:28:17 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 4436@DESKTOP-F3FKHV4
+
+[2019-02-17 12:28:17 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:28:19 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 16-16)
+
+[2019-02-17 12:28:19 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 8148@DESKTOP-F3FKHV4
+
+[2019-02-17 12:28:19 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:29:08 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 17-17)
+
+[2019-02-17 12:29:08 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 2576@DESKTOP-F3FKHV4
+
+[2019-02-17 12:29:08 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:29:11 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 18-18)
+
+[2019-02-17 12:29:11 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 10880@DESKTOP-F3FKHV4
+
+[2019-02-17 12:29:11 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:29:30 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 19-19)
+
+[2019-02-17 12:29:30 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 10132@DESKTOP-F3FKHV4
+
+[2019-02-17 12:29:30 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:29:33 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 20-20)
+
+[2019-02-17 12:29:33 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 8380@DESKTOP-F3FKHV4
+
+[2019-02-17 12:29:34 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:29:35 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 21-21)
+
+[2019-02-17 12:29:35 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 8800@DESKTOP-F3FKHV4
+
+[2019-02-17 12:29:35 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:29:37 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 22-22)
+
+[2019-02-17 12:29:37 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 9020@DESKTOP-F3FKHV4
+
+[2019-02-17 12:29:37 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:29:38 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 23-23)
+
+[2019-02-17 12:29:38 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 13056@DESKTOP-F3FKHV4
+
+[2019-02-17 12:29:38 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:29:39 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 24-24)
+
+[2019-02-17 12:29:39 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 32@DESKTOP-F3FKHV4
+
+[2019-02-17 12:29:39 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:29:40 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 25-25)
+
+[2019-02-17 12:29:40 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 5912@DESKTOP-F3FKHV4
+
+[2019-02-17 12:29:41 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:30:10 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 26-26)
+
+[2019-02-17 12:30:10 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 6192@DESKTOP-F3FKHV4
+
+[2019-02-17 12:30:10 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:31:32 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 27-27)
+
+[2019-02-17 12:31:32 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 5412@DESKTOP-F3FKHV4
+
+[2019-02-17 12:31:32 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:31:48 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 28-28)
+
+[2019-02-17 12:31:48 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 11288@DESKTOP-F3FKHV4
+
+[2019-02-17 12:31:48 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:31:54 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 29-29)
+
+[2019-02-17 12:31:54 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 7228@DESKTOP-F3FKHV4
+
+[2019-02-17 12:31:54 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:31:56 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 30-30)
+
+[2019-02-17 12:31:56 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 12684@DESKTOP-F3FKHV4
+
+[2019-02-17 12:31:56 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:32:52 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 31-31)
+
+[2019-02-17 12:32:52 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 3240@DESKTOP-F3FKHV4
+
+[2019-02-17 12:32:52 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:32:54 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 4216@DESKTOP-F3FKHV4
+
+[2019-02-17 12:32:54 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:32:55 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 2544@DESKTOP-F3FKHV4
+
+[2019-02-17 12:32:55 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:32:56 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 5196@DESKTOP-F3FKHV4
+
+[2019-02-17 12:32:56 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:33:00 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 9016@DESKTOP-F3FKHV4
+
+[2019-02-17 12:33:00 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:33:08 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 4852@DESKTOP-F3FKHV4
+
+[2019-02-17 12:33:08 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:33:09 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 10688@DESKTOP-F3FKHV4
+
+[2019-02-17 12:33:09 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:33:19 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 1652@DESKTOP-F3FKHV4
+
+[2019-02-17 12:33:19 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:33:22 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 32-32)
+
+[2019-02-17 12:33:22 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 2472@DESKTOP-F3FKHV4
+
+[2019-02-17 12:33:22 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:33:24 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 33-33)
+
+[2019-02-17 12:33:24 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 9592@DESKTOP-F3FKHV4
+
+[2019-02-17 12:33:24 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:35:18 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 34-34)
+
+[2019-02-17 12:35:18 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 6016@DESKTOP-F3FKHV4
+
+[2019-02-17 12:35:18 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:49:16 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 1292@DESKTOP-F3FKHV4
+
+[2019-02-17 12:49:17 #2 type.registry] 
+New type domain.User
+
+[2019-02-17 12:49:17 #3 type] 
+Type domain.User is not enhanced.
+
+[2019-02-17 12:49:17 #4 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2019-02-17 12:49:17 #5 type.registry] 
+New type java.util.LinkedList<java.lang.String>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:51:06 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 6328@DESKTOP-F3FKHV4
+
+[2019-02-17 12:51:06 #2 type.registry] 
+New type domain.User
+
+[2019-02-17 12:51:06 #3 type] 
+Type domain.User is not enhanced.
+
+[2019-02-17 12:51:07 #4 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2019-02-17 12:51:07 #5 type.registry] 
+New type java.util.LinkedList<java.lang.String>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:51:26 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 1-10)
+
+[2019-02-17 12:51:26 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 9064@DESKTOP-F3FKHV4
+
+[2019-02-17 12:51:27 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:52:01 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 11-11)
+
+[2019-02-17 12:52:01 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 6496@DESKTOP-F3FKHV4
+
+[2019-02-17 12:52:01 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:52:06 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 12-12)
+
+[2019-02-17 12:52:06 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 10084@DESKTOP-F3FKHV4
+
+[2019-02-17 12:52:06 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:52:08 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 13-13)
+
+[2019-02-17 12:52:08 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 4228@DESKTOP-F3FKHV4
+
+[2019-02-17 12:52:08 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:53:36 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 12232@DESKTOP-F3FKHV4
+
+[2019-02-17 12:53:37 #2 type.registry] 
+New type domain.User
+
+[2019-02-17 12:53:37 #3 type] 
+Type domain.User is not enhanced.
+
+[2019-02-17 12:53:37 #4 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2019-02-17 12:53:37 #5 type.registry] 
+New type java.util.LinkedList<java.lang.String>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:54:08 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 11356@DESKTOP-F3FKHV4
+
+[2019-02-17 12:54:09 #2 type.registry] 
+New type domain.User
+
+[2019-02-17 12:54:09 #3 type] 
+Type domain.User is not enhanced.
+
+[2019-02-17 12:54:09 #4 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2019-02-17 12:54:09 #5 type.registry] 
+New type java.util.LinkedList<java.lang.String>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:54:47 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 1-10)
+
+[2019-02-17 12:54:47 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 2024@DESKTOP-F3FKHV4
+
+[2019-02-17 12:54:47 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:55:01 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 11-11)
+
+[2019-02-17 12:55:01 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 8732@DESKTOP-F3FKHV4
+
+[2019-02-17 12:55:01 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:55:04 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 12-12)
+
+[2019-02-17 12:55:04 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 8560@DESKTOP-F3FKHV4
+
+[2019-02-17 12:55:04 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:55:05 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 13-13)
+
+[2019-02-17 12:55:05 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 8744@DESKTOP-F3FKHV4
+
+[2019-02-17 12:55:06 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:55:07 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 14-14)
+
+[2019-02-17 12:55:07 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 10152@DESKTOP-F3FKHV4
+
+[2019-02-17 12:55:07 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 12:55:45 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 15-15)
+
+[2019-02-17 12:55:45 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 980@DESKTOP-F3FKHV4
+
+[2019-02-17 12:55:46 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:02:59 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 16-16)
+
+[2019-02-17 13:02:59 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 9628@DESKTOP-F3FKHV4
+
+[2019-02-17 13:02:59 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:03:17 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 17-17)
+
+[2019-02-17 13:03:17 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 1292@DESKTOP-F3FKHV4
+
+[2019-02-17 13:03:17 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:03:19 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 4180@DESKTOP-F3FKHV4
+
+[2019-02-17 13:03:19 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:03:20 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 7308@DESKTOP-F3FKHV4
+
+[2019-02-17 13:03:20 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:03:21 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 2640@DESKTOP-F3FKHV4
+
+[2019-02-17 13:03:21 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:03:23 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 2508@DESKTOP-F3FKHV4
+
+[2019-02-17 13:03:23 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:03:24 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 6148@DESKTOP-F3FKHV4
+
+[2019-02-17 13:03:25 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:03:30 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 5040@DESKTOP-F3FKHV4
+
+[2019-02-17 13:03:30 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:03:32 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 18-18)
+
+[2019-02-17 13:03:33 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 9688@DESKTOP-F3FKHV4
+
+[2019-02-17 13:03:33 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:03:34 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 19-19)
+
+[2019-02-17 13:03:34 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 4152@DESKTOP-F3FKHV4
+
+[2019-02-17 13:03:34 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:03:35 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 20-20)
+
+[2019-02-17 13:03:35 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 8536@DESKTOP-F3FKHV4
+
+[2019-02-17 13:03:35 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:03:36 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 21-21)
+
+[2019-02-17 13:03:36 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 7432@DESKTOP-F3FKHV4
+
+[2019-02-17 13:03:36 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:03:38 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 22-22)
+
+[2019-02-17 13:03:38 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 11404@DESKTOP-F3FKHV4
+
+[2019-02-17 13:03:38 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:04:23 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 4192@DESKTOP-F3FKHV4
+
+[2019-02-17 13:04:23 #2 type.registry] 
+New type domain.User
+
+[2019-02-17 13:04:23 #3 type] 
+Type domain.User is not enhanced.
+
+[2019-02-17 13:04:23 #4 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2019-02-17 13:04:23 #5 type.registry] 
+New type java.util.LinkedList<java.lang.String>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:05:33 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 1-6)
+
+[2019-02-17 13:05:33 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 2524@DESKTOP-F3FKHV4
+
+[2019-02-17 13:05:33 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:05:42 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' has been recovered (tr. 7-9)
+
+[2019-02-17 13:05:42 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 6488@DESKTOP-F3FKHV4
+
+[2019-02-17 13:05:42 #3 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:48:58 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 9476@DESKTOP-F3FKHV4
+
+[2019-02-17 13:48:58 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:49:47 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 3636@DESKTOP-F3FKHV4
+
+[2019-02-17 13:49:47 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:50:55 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 7660@DESKTOP-F3FKHV4
+
+[2019-02-17 13:50:55 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:51:37 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 4164@DESKTOP-F3FKHV4
+
+[2019-02-17 13:51:37 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:51:47 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 10000@DESKTOP-F3FKHV4
+
+[2019-02-17 13:51:47 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:51:55 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 364@DESKTOP-F3FKHV4
+
+[2019-02-17 13:51:55 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:52:13 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 9156@DESKTOP-F3FKHV4
+
+[2019-02-17 13:52:13 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:54:22 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 11760@DESKTOP-F3FKHV4
+
+[2019-02-17 13:54:23 #2 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-02-17 13:55:28 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\UsersDB.odb' is opened by 10356@DESKTOP-F3FKHV4
+
+[2019-02-17 13:55:28 #2 type] 
+Type domain.User is not enhanced.
+

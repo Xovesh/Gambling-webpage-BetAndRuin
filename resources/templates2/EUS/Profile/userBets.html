@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="eu">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>BetAndRuin</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+
+    <style>
+        body {
+            font: 12px/15px Roboto, "Helvetica Neue", Helvetica, sans-serif;
+
+            background-color: #222;
+            border-color: #080808;
+            color: #777;
+        }
+
+        #navIcon {
+            padding: 0.5em;
+            float: right;
+        }
+
+        #currentPoints {
+            padding: 1.3em;
+            float: right;
+        }
+
+        #logOut {
+            float: right;
+        }
+
+        .row {
+            margin-top: 40px;
+            padding: 0 10px;
+        }
+
+        .clickable {
+            cursor: pointer;
+        }
+
+        .panel-heading div {
+            margin-top: -18px;
+            font-size: 15px;
+            border-color: #080808;
+            color: #080808;
+        }
+
+        .panel-heading div span {
+            margin-left: 5px;
+        }
+
+        .panel-body {
+            display: none;
+        }
+    </style>
+
+<body>
+<script>
+    (function () {
+        'use strict';
+        var $ = jQuery;
+        $.fn.extend({
+            filterTable: function () {
+                return this.each(function () {
+                    $(this).on('keyup', function (e) {
+                        $('.filterTable_no_results').remove();
+                        var $this = $(this),
+                            search = $this.val().toLowerCase(),
+                            target = $this.attr('data-filters'),
+                            $target = $(target),
+                            $rows = $target.find('tbody tr');
+
+                        if (search == '') {
+                            $rows.show();
+                        } else {
+                            $rows.each(function () {
+                                var $this = $(this);
+                                $this.text().toLowerCase().indexOf(search) === -1 ? $this.hide() : $this.show();
+                            })
+                            if ($target.find('tbody tr:visible').size() === 0) {
+                                var col_count = $target.find('tr').first().find('td').size();
+                                var no_results = $('<tr class="filterTable_no_results"><td colspan="' + col_count + '">No results found</td></tr>')
+                                $target.find('tbody').append(no_results);
+                            }
+                        }
+                    });
+                });
+            }
+        });
+        $('[data-action="filter"]').filterTable();
+    })(jQuery);
+
+    $(function () {
+        // attach table filter plugin to inputs
+        $('[data-action="filter"]').filterTable();
+
+        $('.container').on('click', '.panel-heading span.filter', function (e) {
+            var $this = $(this),
+                $panel = $this.parents('.panel');
+
+            $panel.find('.panel-body').slideToggle();
+            if ($this.css('display') != 'none') {
+                $panel.find('.panel-body input').focus();
+            }
+        });
+        $('[data-toggle="tooltip"]').tooltip();
+    })
+</script>
+<div id="wrapper">
+    <nav class="navbar navbar-default navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/mainPage">BetAndRuin</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="/mainPage">Hasiera</a></li>
+                <li><a href="/userprofile">Profila</a></li>
+                <li><a href="/purchasepoints">Erosi puntuak</a></li>
+                <li><a href="/cashout">Puntuak atera</a></li>
+                <li><a href="/userpayments">Ordainketak</a></li>
+                <li><a href="/settings">Opzioak</a></li>
+                <li><a href="/userbets">Apostuak</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a id="logOut" href="/logout"><span class="glyphicon glyphicon-log-out"></span> Atera</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+                        Hizkuntza selekzioa
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/changeLanguage/ES">Gaztelera(Español)</a></li>
+                        <li><a href="/changeLanguage/EN">Ingelera(English)</a></li>
+                        <li><a href="/changeLanguage/EUS">Euskera(Euskera)</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><i id="navIcon" class="fas fa-coins fa-2x"></i>
+                    <div id="currentPoints">999920</div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-inverse">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Apostuak</h3>
+                        <div class="pull-right">
+                                <span class="clickable filter" data-toggle="tooltip" title="Toggle table filter"
+                                      data-container="body">
+                                    <i class="glyphicon glyphicon-filter"></i>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <input type="text" class="form-control" id="dev-table-filter" data-action="filter"
+                               data-filters="#dev-table" placeholder="Filter Bets"/>
+                    </div>
+                    <table class="table table-hover" id="dev-table">
+                        <thead>
+                        <tr>
+                            <th>Apostu ID</th>
+                            <th>Galdera ID</th>
+                            <th>Gertakari izena</th>
+                            <th>Galdera izena</th>
+                            <th>Iragarpena</th>
+                            <th>Apostatutako kantitatea</th>
+                            <th>Errentagarritasuna</th>
+                            <th>Puntu finalak</th>
+                            <th>Irabazia</th>
+                            <th>Ebatzia?</th>
+                        </tr>
+                        </thead>
+                        <tbody id="betInfo">
+                        <tr>
+                            <td>Apostu ID</td>
+                            <td>Galdera ID</td>
+                            <td>Gertakari izena</td>
+                            <td>Iragarpena</td>
+                            <td>Apostatutako kantitatea</td>
+                            <td>Errentagarritasuna</td>
+                            <td>Pago final</td>
+                            <td>Irabazia</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

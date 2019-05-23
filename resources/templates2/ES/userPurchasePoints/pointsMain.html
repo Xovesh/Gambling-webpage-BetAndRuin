@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>BetAndRuin</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+
+    <style>
+        body {
+            font: 12px/15px Roboto, "Helvetica Neue", Helvetica, sans-serif;
+
+            background-color: #222;
+            border-color: #080808;
+            color: #777;
+        }
+
+        #navIcon {
+            padding:0.5em;
+            float: right;
+        }
+
+        #logOut {
+            float:right;
+        }
+
+        #currentPoints{
+            padding:1.3em;
+            float: right;
+        }
+
+        #offerBtn {
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+
+        #ownInput {
+            padding-bottom: 10px;
+            padding-top: 5px;
+        }
+
+        #closeButton {
+            background: #777;
+        }
+
+        .modal-header, .modal-body, .modal-footer {
+            background-color: #222;
+            border-color: #080808;
+            color:white;
+        }
+
+        .customPanel {
+            background: white;
+            color:#080808;
+            border-radius: 0.4em;
+        }
+
+        .tab-content {
+            color: #080808;
+        }
+
+        .modal-backdrop {
+            background-color: #777;
+}
+    </style>
+</head>
+
+<body>
+    <script>
+        function AddCustomPoints() {
+            var x = Number(document.getElementById("customInput").value);
+            if (x < 100) {
+                document.getElementById("customPoints").setAttribute("disabled", "disabled");
+            }
+            else{
+                document.getElementById("customPoints").removeAttribute("disabled");
+            }
+
+        }
+
+        function modalInfo(amount) {
+            var x = document.getElementById("modalMoneyInfo").firstChild;
+            var y = document.getElementById("modalPointsInfo").firstChild;
+            var resultPoints = amount * 10;
+            x.nodeValue = x.nodeValue + amount.toString();
+            y.nodeValue = y.nodeValue + resultPoints.toString();
+            var finalPoints = document.getElementById("finalPoints").setAttribute("value",resultPoints);
+            var finalPoints = document.getElementById("finalPoints2").setAttribute("value",resultPoints);
+        }
+
+        function modalInfoCustom() {
+            var x = document.getElementById("modalMoneyInfo").firstChild;
+            var y = document.getElementById("modalPointsInfo").firstChild;
+            var resultPoints = Number(document.getElementById("customInput").value);
+            var amount = resultPoints / 10;
+            x.nodeValue = x.nodeValue + amount.toString();
+            y.nodeValue = y.nodeValue + resultPoints.toString();
+            var finalPoints = document.getElementById("finalPoints").setAttribute("value",resultPoints);
+            var finalPoints = document.getElementById("finalPoints2").setAttribute("value",resultPoints);
+        }
+
+        function clearFields(){
+            var x = document.getElementById("modalMoneyInfo").firstChild;
+            var y = document.getElementById("modalPointsInfo").firstChild;
+            x.nodeValue = "Amount to be paid: ";
+            y.nodeValue = "Points to be added: ";
+
+        }
+    </script>
+
+    <div class="modal" tabindex="-1" role="dialog" id="paymentInfo" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Confirmar pago</h5>
+                </div>
+                
+                <!--Modal body-->
+                
+                <div class="modal-body">
+                    <div id="modalInformation">
+                    <h5>Añadir puntos</h5>
+                    <p>Usuario: tractor </p>
+                    <p>Dirección de facturación: Donostia, Something</p>
+                    <p id="modalMoneyInfo"> Cantidad a pagar: </p>
+                    <p id="modalPointsInfo"> Puntos a añadir: </p>
+                    <p>Fecha 14-03-2019</p>
+                </div>
+                    <!--Select payment method and pay-->
+                    <!--Uses fontAwesome css-->
+                    <div class="customPanel" class="panel panel-default">
+                        <div class="panel-body p-5">
+
+                            <ul class="nav bg-light nav-pills rounded nav-fill mb-3" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="pill" href="#nav-tab-card">
+                                        <i class="fa fa-credit-card"></i> Tarjeta de crédito</a></li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="pill" href="#nav-tab-paypal">
+                                        <i class="fab fa-paypal"></i> Paypal</a></li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div class="tab-pane fade in active" id="nav-tab-card">
+                                   <form role="form" method="POST" action="/addPoints">
+                                        <div class="form-group">
+                                            <label class="mt-3" for="username">Nombre completo (en la tarjeta)</label>
+                                            <input type="text" class="form-control" name="FullName" placeholder=""
+                                                required="">
+                                        </div> <!-- form-group.// -->
+
+                                        <div class="form-group">
+                                            <label for="cardNumber">Número de tarjeta</label>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" name="cardNumber"
+                                                    placeholder="">
+                                                <div class="input-group-addon">
+                                                    <span class="input-group-text text-muted">
+                                                        <i class="fab fa-cc-visa"></i>  
+                                                        <i class="fab fa-cc-amex"></i>  
+                                                        <i class="fab fa-cc-mastercard"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div> <!-- form-group.// -->
+
+                                        <div class="row">
+                                            <div class="col-sm-8">
+                                                <div class="form-group">
+                                                    <label><span>Caduca</span> </label>
+                                                    <div class="form-group">
+                                                        <input type="number" min="1" value="1" max="31" class="form-control" placeholder="MM"
+                                                            name="expirationMonth">
+
+                                                        <input type="number" value="1" style="margin-top:10px;" min="1" max="12" class="form-control" placeholder="YY"
+                                                            name="expirationYear">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="form-group">
+                                                    <label>CVV</label>
+                                                    <input type="number" name="cvv" class="form-control" required="">
+                                                </div> <!-- form-group.// -->
+                                            </div>
+                                            <input id="finalPoints" type="hidden" name="pointsToAdd" value="10">
+                                        </div> <!-- row.// -->
+                                        <button class="btn btn-primary" type="submit">Proceed</button>
+                                      </form>
+                                </div> <!-- tab-pane.// -->
+                                <div class="tab-pane fade" id="nav-tab-paypal">
+
+                                    <h4>Paypal es la mejor manera de pagar online</h4>
+                                    <p>
+                                        <form role="form" method="POST" action="/addPoints">
+                                    <input id="a" type="hidden" name="useless1">
+                                    <input id="b" type="hidden" name="useless2">
+                                    <input id="c" type="hidden" name="useless3">
+                                    <input id="d" type="hidden" name="useless4">
+                                    <input id="e" type="hidden" name="useless5">
+                                    <input id="finalPoints2" type="hidden" name="pointsToAdd" value="10">
+                                    <button type="submit" class="btn btn-primary btn-xs"><i
+                                            class="fab fa-paypal"></i> Iniciar sesion en PayPal
+                                    </button>
+                                    </form>
+                                    </p>
+                                    <p><strong>Nota:</strong> Acepto los términos y condiciones de usuario. </p>
+                                </div>
+
+                            </div> <!-- tab-content .// -->
+
+                        </div> <!-- panel-body.// -->
+                    </div> <!-- panel.// -->
+
+                </div> <!--Modal body-->
+            
+                <div class="modal-footer">
+                    <button id="closeButton" type="button" class="btn btn-secondary" data-dismiss="modal" onclick="clearFields()"> Cerrar</button>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+    <div id="wrapper">
+        <nav class="navbar navbar-default navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/mainPage">BetAndRuin</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="/mainPage">Inicio</a></li>
+                <li><a href="/userprofile">Perfil</a></li>
+                <li><a href="/purchasepoints">Comprar puntos</a></li>
+                <li><a href="/cashout">Retirar puntos</a></li>
+                <li><a href="/userpayments">Pagos</a></li>
+                <li><a href="/settings">Opciones</a></li>
+                <li><a href="/userbets">Apuestas</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a id="logOut" href="/logout"><span class="glyphicon glyphicon-log-out"></span> Salir</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+                        Selección de idioma
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/changeLanguage/ES">Español(Español)</a></li>
+                        <li><a href="/changeLanguage/EN">Inglés(English)</a></li>
+                        <li><a href="/changeLanguage/EUS">Euskera(Euskera)</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><i id="navIcon" class="fas fa-coins fa-2x"></i>
+                    <div id="currentPoints">999920</div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+        <!--Promotions-->
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-12" id="offerBtn">
+                    <button type="button" class="btn btn-success primary btn-block btn-xs" data-toggle="modal"
+                        data-target="#paymentInfo" onclick="modalInfo(10)"><strong>Mínimo</strong><br>
+                        Añadir <strong>100</strong> puntos <br> <br>Coste: 10 EUR</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12" id="offerBtn">
+                    <button type="button" class="btn btn-success primary btn-block btn-xs" data-toggle="modal"
+                        data-target="#paymentInfo" onclick="modalInfo(25)"><strong>Básico</strong><br>
+                        Añadir <strong>250</strong> puntos <br> <br>Coste: 25 EUR</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12" id="offerBtn">
+                    <button type="button" class="btn btn-success primary btn-block btn-xs" data-toggle="modal"
+                        data-target="#paymentInfo" onclick="modalInfo(100)"><strong>Normal</strong>
+                        <br> Añadir <strong>1000</strong> puntos <br> <br>Coste: 100 EUR</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12" id="offerBtn">
+                    <button type="button" class="btn btn-success primary btn-block btn-xs" data-toggle="modal"
+                        data-target="#paymentInfo" onclick="modalInfo(500)"><strong>Avanzado</strong><br>
+                        Añadir <strong>5000</strong> puntos <br> <br>Coste: 500 EUR</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12" id="offerBtn">
+                    <button type="button" class="btn btn-success primary btn-block btn-xs" data-toggle="modal"
+                        data-target="#paymentInfo" onclick="modalInfo(1000)"><strong>Exclusivo</strong>
+                        <br> Añadir <strong>10000</strong> puntos<br> <br>Coste: 1000 EUR</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-12" id="ownInput">
+                    <pre>Añade tu propia cantidad de puntos<br>Conversión mínima 100 puntos</pre>
+                    <input id="customInput" type="number" class="form-control" placeholder="Points to be added"
+                        oninput="AddCustomPoints()">
+
+                </div>
+                <div>
+                    <button id="customPoints" type="button" class="btn btn-success btn-sm center-block"
+                         data-toggle="modal" data-target="#paymentInfo" onclick="modalInfoCustom()">Añadir</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

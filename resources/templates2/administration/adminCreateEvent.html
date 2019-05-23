@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>BetAndRuin</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            font: 12px/15px Roboto, "Helvetica Neue", Helvetica, sans-serif;
+            padding: 20px;
+            background-color: #a1c4fd;
+        }
+
+        #wrapper {
+            margin: 0 auto;
+        }
+
+        select,
+        input,
+        .btn {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        .navbar {
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+        }
+
+        .panel {
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+        }
+
+        .panel-heading {
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">BetAndRuin</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="/administration/adminmain">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Events
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/administration/adminEventSettings">Settings</a></li>
+                        <li><a href="/administration/adminallevents">All events</a></li>
+                        <li><a href="/administration/adminalleventsbycanbet">All events By can Bet</a></li>
+                        <li><a href="/administration/adminunresolvedevents">Unresolved Events</a></li>
+                        <li><a href="/administration/adminresolvedevents">Resolved Events</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Users
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/administration/adminusers">All Users</a></li>
+                        <li><a href="/administration/bannedusers">Banned Users</a></li>
+                    </ul>
+                </li>
+                <li><a href="/administration/adminnews">News</a></li>
+                <li class="dropdown active">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Create
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/administration/admincreateevent">Event</a></li>
+                        <li><a href="/administration/admincreatenews">News</a></li>
+                    </ul>
+                </li>
+                <li><a href="/administration/adminstatistics">Statistics</a></li>
+                <li><a href="/administration/adminserverstatus">Server Status</a></li>
+                <li><a href="/administration/adminsettings">Settings</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/administration/logout"><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h1>Create Event</h1>
+        </div>
+        <div class="panel-body">
+            <form action="/administration/admineventcreate" method="post" pattern="[^&]+">
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        <h2>Event Data</h2>
+                        <hr>
+                    </div>
+                </div>
+                <hr>
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        <label for="eventNameEN"><h4>Event Name</h4></label>
+                        <input type="text" class="form-control" name="eventNameEN"
+                               id="eventNameEN" required="required" placeholder="Event Name" value="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        <label for="eventDescriptionEN"><h4>Event Description (English)</h4></label>
+                        <textarea required="required" rows="4" style="resize: none;" class="form-control" name="eventDescriptionEN"
+                                  id="eventDescriptionEN"
+                                  placeholder="Event Description"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        <label for="eventDescriptionES"><h4>Event Description (Spanish)</h4></label>
+                        <textarea required="required" rows="4" style="resize: none;" class="form-control" name="eventDescriptionES"
+                                  id="eventDescriptionES"
+                                  placeholder="Event Description"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        <label for="eventDescriptionEUS"><h4>Event Description (Basque)</h4></label>
+                        <textarea required="required" rows="4" style="resize: none;" class="form-control" name="eventDescriptionEUS"
+                                  id="eventDescriptionEUS"
+                                  placeholder="Event Description"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-2">
+                        <label for="deadLineDate"><h4>DeadLine Date</h4></label>
+                        <input required="required" type="datetime-local" class="form-control" name="deadLineDate" id="deadLineDate">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-2">
+                        <label for="resolveDate"><h4>Resolve Date</h4></label>
+                        <input required="required" type="datetime-local" class="form-control" name="resolveDate" id="resolveDate">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-8">
+                        <label for="tags"><h4>Tags (Split by ;)</h4></label>
+                        <textarea required="required" rows="1" style="resize: none;" class="form-control" name="eventtags" id="tags"
+                                  placeholder="Event tags"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        <h2>Base Question</h2>
+                        <hr>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-6">
+                        <label for="QuestionNameEN"><h4>Question Name (English)</h4></label>
+                        <input required="required" type="text" class="form-control" name="QuestionNameEN"
+                               id="QuestionNameEN" placeholder="Question Name" value="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-6">
+                        <label for="QuestionNameEUS"><h4>Question Name (Spanish)</h4></label>
+                        <input required="required" type="text" class="form-control" name="QuestionNameES"
+                               id="QuestionNameEUS" placeholder="Question Name" value="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-6">
+                        <label for="QuestionNameES"><h4>Question Name (Basque)</h4></label>
+                        <input required="required" type="text" class="form-control" name="QuestionNameEUS"
+                               id="QuestionNameES" placeholder="Question Name" value="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-6">
+                        <label for="QuestionMode"><h4>Question Mode</h4></label>
+                        <select class="form-control" name="questionMode" id="questionMode">
+                            <option value="UseValidSet">Set</option>
+                            <option value="UseNumericValue">Numeric Value</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-6">
+                        <label for="expectedResult"><h4>Expected Result (If applicable) Split by;</h4></label>
+                        <input pattern="[;0-9]*" type="text" class="form-control" name="expectedResult"
+                               id="expectedResult" placeholder="Expected result" value="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-6">
+                        <label for="maxExpectedScore"><h4>Maximum Expected Score (If applicable)</h4></label>
+                        <input type="number" min="1" class="form-control" name="maxExpectedScore"
+                               id="maxExpectedScore" placeholder="Max. Exp. Score" value="1">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        <label for="questionSet"><h4>Possible answers (If applicable) Split by ;</h4></label>
+                        <textarea rows="5" style="resize: none;" class="form-control" name="questionSet"
+                                  id="questionSet"
+                                  placeholder="Question Set"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        <label for="validSetPayouts"><h4>Valid Set Payouts (If applicable) Split by ;</h4></label>
+                        <textarea rows="1" style="resize: none;" class="form-control" name="validSetPayouts"
+                                  id="validSetPayouts"
+                                  placeholder="valid Set Payouts"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        <hr>
+                        <button class="btn btn-lg btn-success" type="submit"><i
+                                class="glyphicon glyphicon-ok-sign"></i> Create
+                        </button>
+                        <button class=" btn btn-lg" type="reset"><i
+                                class="glyphicon glyphicon-repeat"></i> Reset
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

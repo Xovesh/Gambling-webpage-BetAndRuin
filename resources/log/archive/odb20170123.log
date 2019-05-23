@@ -1,0 +1,126 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2017-01-23 11:07:27 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/RuralHouse-2017/ruralHouses.odb' is opened by 926@imacRetinaJon.local
+
+[2017-01-23 11:07:27 #2 type.registry] 
+New type domain.RuralHouse
+
+[2017-01-23 11:07:27 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2017-01-23 11:07:27 #4 type.registry] 
+New type domain.Offer
+
+[2017-01-23 11:07:27 #5 type.registry] 
+New type java.util.Vector<domain.Offer>
+
+[2017-01-23 11:07:27 #6 type] 
+Type domain.Offer is not enhanced.
+
+[2017-01-23 11:07:27 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2017-01-23 11:09:42 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/RuralHouse-2017/resources\ruralHouses.odb' is opened by 971@imacRetinaJon.local
+
+[2017-01-23 11:09:42 #2 type.registry] 
+New type domain.RuralHouse
+
+[2017-01-23 11:09:42 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2017-01-23 11:09:42 #4 type.registry] 
+New type domain.Offer
+
+[2017-01-23 11:09:42 #5 type.registry] 
+New type java.util.Vector<domain.Offer>
+
+[2017-01-23 11:09:42 #6 type] 
+Type domain.Offer is not enhanced.
+
+[2017-01-23 11:09:42 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2017-01-23 11:10:16 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/RuralHouse-2017/resources\ruralHouses.odb' has been recovered (tr. 1-5)
+
+[2017-01-23 11:10:17 #2 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/RuralHouse-2017/resources\ruralHouses.odb' is opened by 973@imacRetinaJon.local
+
+[2017-01-23 11:10:17 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2017-01-23 11:10:17 #4 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2017-01-23 11:10:43 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/RuralHouse-2017/resources\kk.odb' is opened by 975@imacRetinaJon.local
+
+[2017-01-23 11:10:45 #2 type.registry] 
+New type domain.RuralHouse
+
+[2017-01-23 11:10:45 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2017-01-23 11:10:45 #4 type.registry] 
+New type domain.Offer
+
+[2017-01-23 11:10:45 #5 type.registry] 
+New type java.util.Vector<domain.Offer>
+
+[2017-01-23 11:10:45 #6 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2017-01-23 11:11:11 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/RuralHouse-2017/resources\kk.odb' is opened by 977@imacRetinaJon.local
+
+[2017-01-23 11:11:11 #2 type.registry] 
+New type domain.RuralHouse
+
+[2017-01-23 11:11:11 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2017-01-23 11:11:11 #4 type.registry] 
+New type domain.Offer
+
+[2017-01-23 11:11:11 #5 type.registry] 
+New type java.util.Vector<domain.Offer>
+
+[2017-01-23 11:11:11 #6 type] 
+Type domain.Offer is not enhanced.
+
+[2017-01-23 11:11:11 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2017-01-23 11:32:51 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/RuralHouse-2017/resources\kk.odb' is opened by 1040@imacRetinaJon.local
+
+[2017-01-23 11:32:51 #2 type.registry] 
+New type domain.RuralHouse
+
+[2017-01-23 11:32:51 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2017-01-23 11:32:51 #4 type.registry] 
+New type domain.Offer
+
+[2017-01-23 11:32:51 #5 type.registry] 
+New type java.util.Vector<domain.Offer>
+
+[2017-01-23 11:32:51 #6 type] 
+Type domain.Offer is not enhanced.
+
+[2017-01-23 11:32:51 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+

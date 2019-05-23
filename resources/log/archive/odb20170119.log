@@ -1,0 +1,138 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2017-01-19 12:55:33 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/RuralHouse-2017/ruralHouses.odb' is opened by 2027@imacRetinaJon.local
+
+[2017-01-19 12:55:33 #2 type.registry] 
+New type domain.RuralHouse
+
+[2017-01-19 12:55:33 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2017-01-19 12:55:33 #4 type.registry] 
+New type domain.Offer
+
+[2017-01-19 12:55:33 #5 type.registry] 
+New type java.util.Vector<domain.Offer>
+
+[2017-01-19 12:55:33 #6 type] 
+Type domain.Offer is not enhanced.
+
+[2017-01-19 12:55:33 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2017-01-19 13:06:46 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/RuralHouse-2017/ruralHouses.odb' is opened by 2089@imacRetinaJon.local
+
+[2017-01-19 13:06:46 #2 type.registry] 
+New type domain.RuralHouse
+
+[2017-01-19 13:06:46 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2017-01-19 13:06:46 #4 type.registry] 
+New type domain.Offer
+
+[2017-01-19 13:06:46 #5 type.registry] 
+New type java.util.Vector<domain.Offer>
+
+[2017-01-19 13:06:46 #6 type] 
+Type domain.Offer is not enhanced.
+
+[2017-01-19 13:06:46 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2017-01-19 13:08:21 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/RuralHouse-2017/ruralHouses.odb' is opened by 2095@imacRetinaJon.local
+
+[2017-01-19 13:08:21 #2 type.registry] 
+New type domain.RuralHouse
+
+[2017-01-19 13:08:21 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2017-01-19 13:08:21 #4 type.registry] 
+New type domain.Offer
+
+[2017-01-19 13:08:21 #5 type.registry] 
+New type java.util.Vector<domain.Offer>
+
+[2017-01-19 13:08:21 #6 type] 
+Type domain.Offer is not enhanced.
+
+[2017-01-19 13:08:21 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2017-01-19 13:08:33 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/RuralHouse-2017/ruralHouses.odb' is opened by 2100@imacRetinaJon.local
+
+[2017-01-19 13:08:33 #2 type.registry] 
+New type domain.RuralHouse
+
+[2017-01-19 13:08:33 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2017-01-19 13:08:33 #4 type.registry] 
+New type domain.Offer
+
+[2017-01-19 13:08:33 #5 type.registry] 
+New type java.util.Vector<domain.Offer>
+
+[2017-01-19 13:08:33 #6 type] 
+Type domain.Offer is not enhanced.
+
+[2017-01-19 13:08:33 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2017-01-19 13:13:22 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/RuralHouse-2017/ruralHouses.odb' is opened by 2151@imacRetinaJon.local
+
+[2017-01-19 13:13:22 #2 type.registry] 
+New type domain.RuralHouse
+
+[2017-01-19 13:13:22 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2017-01-19 13:13:22 #4 type.registry] 
+New type domain.Offer
+
+[2017-01-19 13:13:22 #5 type.registry] 
+New type java.util.Vector<domain.Offer>
+
+[2017-01-19 13:13:22 #6 type] 
+Type domain.Offer is not enhanced.
+
+[2017-01-19 13:13:22 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2017-01-19 16:21:52 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/RuralHouse-2017/0.0.0.0:6137/ruralHouses.odb' is opened by 3331@imacRetinaJon.local
+
+[2017-01-19 16:21:52 #2 type.registry] 
+New type domain.RuralHouse
+
+[2017-01-19 16:21:52 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2017-01-19 16:21:52 #4 type.registry] 
+New type domain.Offer
+
+[2017-01-19 16:21:52 #5 type.registry] 
+New type java.util.Vector<domain.Offer>
+
+[2017-01-19 16:21:52 #6 type] 
+Type domain.Offer is not enhanced.
+
+[2017-01-19 16:21:52 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+

@@ -1,0 +1,35 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-05-11 18:28:51 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 41386-41386)
+
+[2019-05-11 18:28:51 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 4012@DESKTOP-K71H3G5
+
+[2019-05-11 18:28:51 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-05-11 18:28:51 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-05-11 18:28:51 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-05-11 18:28:51 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-05-11 18:28:51 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-05-11 18:28:51 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-05-11 18:28:51 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-05-11 18:28:51 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-05-11 18:28:51 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+

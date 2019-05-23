@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Administration Login</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <style>
+        body{
+            font:12px/15px Roboto, "Helvetica Neue", Helvetica, sans-serif;
+            padding: 20px;
+            background-color: #a1c4fd;
+            margin-top:150px;
+        }
+        select,
+        input,
+        .btn {
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
+        #wrapper{
+            margin:0 auto;
+        }
+        .main-form {
+            width: 360px;
+            min-height: 360px;
+            background: #e2ebf0;
+            border-radius: 30px;
+            margin:0px auto 20px;
+            padding: 20px;
+        }
+        .form-logo {
+            font-size: 100px;
+            color: #708090;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <div class="main-form">
+        <form pattern="[^&]+" action="/administration/adminlogin" method="post">
+                <div class="text-center">
+                    <span class="form-logo glyphicon glyphicon-cog"></span>
+                </div>
+                <div class="form-body">
+                    <h1 class="form-title text-center">Administration</h1>
+                    <div class="form-group">
+                        <input class="form-control" type="text" id="username" name="username" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="password" id="password" name="password" placeholder="Password">
+                    </div>
+                    <div class="form-group text-center">
+                        <button class="btn btn-default btn-lg" type="submit">Login</button>
+                    </div>
+                </div>
+
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <title>BetAndRuin Registro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.4.0/moment.min.js"></script>
+    <style>
+        body {
+            font: 12px/15px Roboto, "Helvetica Neue", Helvetica, sans-serif;
+            padding: 20px;
+            background-color: #222;
+            margin-top: 100px;
+            border-color: #080808;
+            color: #000000;
+        }
+
+        select,
+        input,
+        .btn {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        #wrapper {
+            margin: 0 auto;
+        }
+
+        .main-form {
+            width: 900px;
+            min-height: 360px;
+            border-radius: 30px;
+            margin: 0px auto 20px;
+            padding: 20px;
+            color: #000000;
+        }
+
+        .container {
+            background: #f8ffff;
+            border-radius: 10px;
+            color: #000000;
+            padding: 50px;
+        }
+
+    </style>
+</head>
+<script>
+    function evaluateDate() {
+        var eighteenYearsAgo = moment().subtract(18, "years");
+        var birthday = moment($("#birthDate").val());
+
+        if (!birthday.isValid()) {
+            return "invalid date";
+        } else if (eighteenYearsAgo.isAfter(birthday)) {
+            $("#8char").removeClass("glyphicon-remove");
+            $("#8char").addClass("glyphicon-ok");
+            $("#8char").text(" Valido")
+            $("#8char").css("color", "#00A41E");
+            document.getElementById("create").removeAttribute("disabled")
+        } else {
+            $("#8char").removeClass("glyphicon-remove");
+            $("#8char").addClass("glyphicon-remove fa-lg");
+            $("#8char").text(" No-Valido")
+            $("#8char").css("color", "#FF0004");
+            document.getElementById("create").setAttribute("disabled");
+        }
+    }
+</script>
+<body>
+<div id="wrapper">
+    <div class="row">
+        <!--Top navbar-->
+        <div class="col-xs-12">
+            <nav class="navbar navbar-inverse navbar-fixed-top navar-expand-lg">
+                <div class="container-fluid">
+                    <a href="/" class="navbar-brand">BetAndRuin</a>
+                    <div class="collapse navbar-collapse" id="navbarTogglerMain">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active">
+                                <button type="button" class="btn btn-info btn-lg" data-toggle="modal"
+                                        data-target="#myModal">Contactar soporte
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <div class="main-form">
+            <form action="/signUp" method="post">
+                <div class="row">
+                    <div class="form-body">
+                        <div class="col-xs-12" id="error">
+
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="form-group">
+                                <h3 class="text-left">Nombre de usuario</h3>
+                                <input required class="form-control" type="text" id="username" name="username"
+                                       placeholder="Username">
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="form-group">
+                                <h3 class="text-left">Contraseña</h3>
+                                <input required class="form-control" type="password" id="password" name="password"
+                                       placeholder="New password">
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="form-group">
+                                <h3 class="text-left">Repetir contraseña</h3>
+                                <input required class="form-control" type="password" id="password2" name="password2"
+                                       placeholder="Repeat Password">
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="form-group">
+                                <h3 class="text-left">Fecha de nacimiento</h3>
+                                <input required class="form-control" type="date" id="birthDate" name="birthDate"
+                                       placeholder="Birth Date" oninput="evaluateDate()">
+                                <br>
+                                <span id="8char" class="glyphicon glyphicon-remove fa-lg" style="color:#FF0004;"> No-Válido
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="form-group">
+                                <h3 class="text-left">Número de teléfono</h3>
+                                <input required class="form-control" type="tel" id="phoneNumber" name="phoneNumber"
+                                       placeholder="Phone Number">
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="form-group">
+                                <h3 class="text-left">Email</h3>
+                                <input required class="form-control" type="email" id="email" name="email"
+                                       placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="form-group">
+                                <h3 class="text-left">Nombre</h3>
+                                <input required class="form-control" type="text" id="name" name="name"
+                                       placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="form-group">
+                                <h3 class="text-left">Apellido</h3>
+                                <input required class="form-control" type="text" id="surname" name="surname"
+                                       placeholder="Surname">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-6">
+                                <h3 class="text-left">Género</h3>
+                                <select class="form-control" name="sex" id="sex">
+                                    <option value="Male">Hombre</option>
+                                    <option value="Female">Mujer</option>
+                                    <option value="Other">Otro</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6">
+                            <div class="form-group">
+                                <h3 class="text-left">Pais</h3>
+                                <input required class="form-control" type="text" id="country" name="country"
+                                       placeholder="Country">
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="form-group">
+                                <h3 class="text-left">Ciudad</h3>
+                                <input required class="form-control" type="text" id="city" name="city"
+                                       placeholder="City">
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="form-group">
+                                <h3 class="text-left">Dirección</h3>
+                                <input required class="form-control" type="text" id="Address" name="address"
+                                       placeholder="Address">
+                            </div>
+                        </div>
+                        <div class="col-xs-6"><h4>
+                        <span class="help-block">Registrándote aceptas nuestros
+  						<a href="#" onclick="window.open('/Termly-Website-Terms-and-Conditions-Template.pdf', '_blank', 'fullscreen=yes'); return false;"> Terminos de condición</a></span></h4>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="form-group text-center">
+                                <button class="btn btn-default btn-lg" id="create" disabled type="submit">Crear cuenta</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Modal to display on contact support press-->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times</button>
+                <h4 class="modal-title">Información de contacto</h4>
+            </div>
+            <div class="modal-body" id="info">
+                <p>Información de contacto:</p>
+                <p>Email:Test@test.test.tst</p>
+                <p>Número de teléfono:555-555-55-55.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

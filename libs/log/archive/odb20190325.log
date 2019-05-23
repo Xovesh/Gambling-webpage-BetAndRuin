@@ -1,0 +1,692 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:14:37 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 4567-4570)
+
+[2019-03-25 17:14:37 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 8236@DESKTOP-K71H3G5
+
+[2019-03-25 17:14:37 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:14:37 #4 type] 
+Type domainV2.News is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:16:24 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 4571-4571)
+
+[2019-03-25 17:16:24 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 6980@DESKTOP-K71H3G5
+
+[2019-03-25 17:16:24 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:16:24 #4 type] 
+Type domainV2.News is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:18:08 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 4572-4572)
+
+[2019-03-25 17:18:08 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 12152@DESKTOP-K71H3G5
+
+[2019-03-25 17:18:08 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:18:08 #4 type] 
+Type domainV2.News is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:22:36 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 4573-4575)
+
+[2019-03-25 17:22:36 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 10368@DESKTOP-K71H3G5
+
+[2019-03-25 17:22:36 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:22:36 #4 type] 
+Type domainV2.News is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:24:27 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 4576-4577)
+
+[2019-03-25 17:24:27 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 10528@DESKTOP-K71H3G5
+
+[2019-03-25 17:24:27 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:24:27 #4 type] 
+Type domainV2.News is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:26:49 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 4578-4578)
+
+[2019-03-25 17:26:49 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 2300@DESKTOP-K71H3G5
+
+[2019-03-25 17:26:49 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:26:49 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:26:49 #5 type.registry] 
+New type domainV2.RecoverPassword
+
+[2019-03-25 17:26:49 #6 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:29:45 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 4579-4580)
+
+[2019-03-25 17:29:45 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 6284@DESKTOP-K71H3G5
+
+[2019-03-25 17:29:45 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:29:45 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:29:45 #5 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:32:48 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 1992@DESKTOP-K71H3G5
+
+[2019-03-25 17:32:48 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:32:48 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:32:48 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:32:54 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 11588@DESKTOP-K71H3G5
+
+[2019-03-25 17:32:54 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:32:54 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:32:54 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:33:20 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 3784@DESKTOP-K71H3G5
+
+[2019-03-25 17:33:20 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:33:20 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:33:20 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:33:53 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 9528@DESKTOP-K71H3G5
+
+[2019-03-25 17:33:53 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:33:53 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:33:53 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:34:05 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 9756@DESKTOP-K71H3G5
+
+[2019-03-25 17:34:05 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:34:05 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:34:05 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:34:31 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 10768@DESKTOP-K71H3G5
+
+[2019-03-25 17:34:31 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:34:31 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:34:31 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:36:15 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 8124@DESKTOP-K71H3G5
+
+[2019-03-25 17:36:16 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:36:16 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:36:16 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:39:27 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 4585-4585)
+
+[2019-03-25 17:39:27 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 5080@DESKTOP-K71H3G5
+
+[2019-03-25 17:39:27 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:39:27 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:39:27 #5 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:39:41 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 4586-4586)
+
+[2019-03-25 17:39:41 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 8232@DESKTOP-K71H3G5
+
+[2019-03-25 17:39:41 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:39:41 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:39:41 #5 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:40:24 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 4587-4587)
+
+[2019-03-25 17:40:24 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 12008@DESKTOP-K71H3G5
+
+[2019-03-25 17:40:25 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:40:25 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:40:25 #5 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:40:32 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 4588-4588)
+
+[2019-03-25 17:40:32 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 4048@DESKTOP-K71H3G5
+
+[2019-03-25 17:40:32 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:40:32 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:40:32 #5 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:42:40 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 4589-4589)
+
+[2019-03-25 17:42:40 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 6772@DESKTOP-K71H3G5
+
+[2019-03-25 17:42:40 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:42:40 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:42:40 #5 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:43:55 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 12616@DESKTOP-K71H3G5
+
+[2019-03-25 17:43:55 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:43:55 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:43:55 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:44:33 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 4590-4590)
+
+[2019-03-25 17:44:34 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 2668@DESKTOP-K71H3G5
+
+[2019-03-25 17:44:34 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:44:34 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:44:34 #5 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:44:38 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 12964@DESKTOP-K71H3G5
+
+[2019-03-25 17:44:38 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:44:38 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:44:38 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:44:40 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 6444@DESKTOP-K71H3G5
+
+[2019-03-25 17:44:40 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:44:40 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:44:40 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:44:41 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 12968@DESKTOP-K71H3G5
+
+[2019-03-25 17:44:41 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:44:41 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:44:41 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:44:51 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 9092@DESKTOP-K71H3G5
+
+[2019-03-25 17:44:51 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:44:51 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:44:51 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:44:53 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 8888@DESKTOP-K71H3G5
+
+[2019-03-25 17:44:53 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:44:53 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:44:53 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:45:06 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 12008@DESKTOP-K71H3G5
+
+[2019-03-25 17:45:06 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:45:06 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:45:06 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:49:02 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 2376@DESKTOP-K71H3G5
+
+[2019-03-25 17:49:02 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:49:02 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:49:02 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:49:06 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 4600-4600)
+
+[2019-03-25 17:49:06 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 6616@DESKTOP-K71H3G5
+
+[2019-03-25 17:49:06 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:49:06 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:49:06 #5 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:49:09 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 11108@DESKTOP-K71H3G5
+
+[2019-03-25 17:49:09 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:49:09 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:49:09 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:49:11 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 3684@DESKTOP-K71H3G5
+
+[2019-03-25 17:49:11 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:49:11 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:49:11 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:56:23 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 4104@DESKTOP-K71H3G5
+
+[2019-03-25 17:56:23 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:56:23 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:56:23 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:57:30 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 12164@DESKTOP-K71H3G5
+
+[2019-03-25 17:57:30 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:57:30 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:57:30 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:58:22 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 12716@DESKTOP-K71H3G5
+
+[2019-03-25 17:58:22 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:58:22 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:58:22 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 17:58:59 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 10328@DESKTOP-K71H3G5
+
+[2019-03-25 17:58:59 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 17:58:59 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 17:58:59 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 18:00:03 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 3956@DESKTOP-K71H3G5
+
+[2019-03-25 18:00:03 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 18:00:03 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 18:00:03 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 18:00:25 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 4601-4601)
+
+[2019-03-25 18:00:25 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 6276@DESKTOP-K71H3G5
+
+[2019-03-25 18:00:25 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 18:00:25 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 18:00:25 #5 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 18:00:46 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 336@DESKTOP-K71H3G5
+
+[2019-03-25 18:00:47 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 18:00:47 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 18:00:47 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 18:00:58 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 1660@DESKTOP-K71H3G5
+
+[2019-03-25 18:00:58 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 18:00:58 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 18:00:58 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 18:01:24 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 4602-4603)
+
+[2019-03-25 18:01:24 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 11160@DESKTOP-K71H3G5
+
+[2019-03-25 18:01:25 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 18:01:25 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 18:01:25 #5 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 18:02:10 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 4604-4605)
+
+[2019-03-25 18:02:10 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 6776@DESKTOP-K71H3G5
+
+[2019-03-25 18:02:10 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 18:02:10 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 18:02:10 #5 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 18:04:28 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 10016@DESKTOP-K71H3G5
+
+[2019-03-25 18:04:28 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 18:04:28 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 18:04:28 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 18:24:29 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 12796@DESKTOP-K71H3G5
+
+[2019-03-25 18:24:29 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 18:24:29 #3 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 18:24:29 #4 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 18:25:35 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 4610-4610)
+
+[2019-03-25 18:25:35 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 8140@DESKTOP-K71H3G5
+
+[2019-03-25 18:25:36 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 18:25:36 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 18:25:36 #5 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 18:25:51 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 4611-4611)
+
+[2019-03-25 18:25:51 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 10332@DESKTOP-K71H3G5
+
+[2019-03-25 18:25:51 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 18:25:51 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 18:25:51 #5 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-25 18:26:11 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 4612-4613)
+
+[2019-03-25 18:26:11 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 6292@DESKTOP-K71H3G5
+
+[2019-03-25 18:26:11 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-03-25 18:26:11 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-03-25 18:26:11 #5 type] 
+Type domainV2.RecoverPassword is not enhanced.
+

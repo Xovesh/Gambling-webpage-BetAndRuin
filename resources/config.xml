@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <businessLogic local="true"> 
+	<businessLogicNode>0.0.0.0</businessLogicNode>
+	<businessLogicPort>1099</businessLogicPort>
+	<businessLogicName>FloatingSoftwareDB</businessLogicName>
+  </businessLogic>
+  <database local="true">
+	<databaseNode>localhost</databaseNode>
+	<dbFilename>resources/db/FloatingSoftwareDB.odb</dbFilename>
+	<dataBaseOpenMode>open</dataBaseOpenMode>
+	<activationDepth>5</activationDepth>
+	<updateDepth>5</updateDepth>
+	<databasePort>6136</databasePort>
+	<user>admin</user>
+	<password>admin</password>
+  </database>
+  <locale>en</locale>
+</config>

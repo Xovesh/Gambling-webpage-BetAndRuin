@@ -1,0 +1,786 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 00:03:53 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' has been recovered (tr. 3265-3266)
+
+[2019-03-06 00:03:53 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 11752@DESKTOP-F3FKHV4
+
+[2019-03-06 00:03:53 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 00:03:53 #4 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 00:03:53 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 00:03:53 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 00:05:57 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 5528@DESKTOP-F3FKHV4
+
+[2019-03-06 00:05:57 #2 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 00:05:57 #3 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 00:05:57 #4 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 00:05:57 #5 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 00:06:47 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 10952@DESKTOP-F3FKHV4
+
+[2019-03-06 00:06:47 #2 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 00:06:47 #3 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 00:06:47 #4 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 00:06:47 #5 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 00:07:10 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 10868@DESKTOP-F3FKHV4
+
+[2019-03-06 00:07:10 #2 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 00:07:10 #3 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 00:07:10 #4 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 00:07:10 #5 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 00:07:22 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 2716@DESKTOP-F3FKHV4
+
+[2019-03-06 00:07:22 #2 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 00:07:22 #3 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 00:07:22 #4 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 00:07:22 #5 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 00:08:11 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 1788@DESKTOP-F3FKHV4
+
+[2019-03-06 00:08:11 #2 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 00:08:11 #3 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 00:08:11 #4 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 00:08:11 #5 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 00:08:59 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 7420@DESKTOP-F3FKHV4
+
+[2019-03-06 00:08:59 #2 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 00:08:59 #3 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 00:08:59 #4 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 00:08:59 #5 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 00:13:49 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' has been recovered (tr. 3267-3269)
+
+[2019-03-06 00:13:49 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 2544@DESKTOP-F3FKHV4
+
+[2019-03-06 00:13:49 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 00:13:49 #4 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 00:13:49 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 00:13:49 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 00:16:40 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 628@DESKTOP-F3FKHV4
+
+[2019-03-06 00:16:40 #2 type.registry] 
+New type domain.Question
+
+[2019-03-06 00:16:40 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 00:16:40 #4 type.registry] 
+New type domain.Bet
+
+[2019-03-06 00:16:40 #5 type.registry] 
+New type java.util.Hashtable<java.lang.String,domain.Bet>
+
+[2019-03-06 00:16:40 #6 type.registry] 
+New type domain.Event
+
+[2019-03-06 00:16:40 #7 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 00:16:40 #8 type.registry] 
+New type domain.User
+
+[2019-03-06 00:16:40 #9 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 00:16:40 #10 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2019-03-06 00:16:40 #11 type] 
+Type domain.User is not enhanced.
+
+[2019-03-06 00:16:40 #12 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2019-03-06 00:16:40 #13 type.registry] 
+New type java.util.Hashtable<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 00:16:53 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' has been recovered (tr. 1-6)
+
+[2019-03-06 00:16:53 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 1580@DESKTOP-F3FKHV4
+
+[2019-03-06 00:16:53 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 00:16:53 #4 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 00:16:53 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 00:16:53 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 00:17:00 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 6252@DESKTOP-F3FKHV4
+
+[2019-03-06 00:17:00 #2 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 00:17:00 #3 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 00:17:00 #4 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 00:17:00 #5 type] 
+Type domain.User is not enhanced.
+
+[2019-03-06 00:17:01 #6 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2019-03-06 00:17:01 #7 type.registry] 
+New type java.util.LinkedList<java.lang.String>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 00:18:16 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' has been recovered (tr. 7-3807)
+
+[2019-03-06 00:18:16 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 5872@DESKTOP-F3FKHV4
+
+[2019-03-06 00:18:16 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 00:18:16 #4 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 00:18:16 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 00:18:16 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 00:18:45 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' has been recovered (tr. 3808-3810)
+
+[2019-03-06 00:18:45 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 11056@DESKTOP-F3FKHV4
+
+[2019-03-06 00:18:46 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 00:18:46 #4 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 00:18:46 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 00:18:46 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 00:19:25 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' has been recovered (tr. 3811-4110)
+
+[2019-03-06 00:19:25 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 6832@DESKTOP-F3FKHV4
+
+[2019-03-06 00:19:25 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 00:19:25 #4 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 00:19:25 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 00:19:25 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 00:19:57 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 2692@DESKTOP-F3FKHV4
+
+[2019-03-06 00:19:57 #2 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 00:19:57 #3 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 00:19:57 #4 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 00:19:57 #5 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 00:20:27 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' has been recovered (tr. 4111-4111)
+
+[2019-03-06 00:20:27 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 7376@DESKTOP-F3FKHV4
+
+[2019-03-06 00:20:27 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 00:20:27 #4 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 00:20:27 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 00:20:27 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 00:21:17 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 4728@DESKTOP-F3FKHV4
+
+[2019-03-06 00:21:17 #2 type.registry] 
+New type domain.Question
+
+[2019-03-06 00:21:17 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 00:21:17 #4 type.registry] 
+New type domain.Bet
+
+[2019-03-06 00:21:17 #5 type.registry] 
+New type java.util.Hashtable<java.lang.String,domain.Bet>
+
+[2019-03-06 00:21:17 #6 type.registry] 
+New type domain.Event
+
+[2019-03-06 00:21:17 #7 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 00:21:17 #8 type.registry] 
+New type domain.User
+
+[2019-03-06 00:21:17 #9 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 00:21:17 #10 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2019-03-06 00:21:17 #11 type] 
+Type domain.User is not enhanced.
+
+[2019-03-06 00:21:17 #12 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2019-03-06 00:21:17 #13 type.registry] 
+New type java.util.Hashtable<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 00:21:41 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' has been recovered (tr. 1-6)
+
+[2019-03-06 00:21:41 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 3972@DESKTOP-F3FKHV4
+
+[2019-03-06 00:21:42 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 00:21:42 #4 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 00:21:42 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 00:21:42 #6 type] 
+Type domain.User is not enhanced.
+
+[2019-03-06 00:21:42 #7 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2019-03-06 00:21:42 #8 type.registry] 
+New type java.util.LinkedList<java.lang.String>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 00:25:13 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' has been recovered (tr. 7-3521)
+
+[2019-03-06 00:25:13 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 7364@DESKTOP-F3FKHV4
+
+[2019-03-06 00:25:13 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 00:25:13 #4 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 00:25:13 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 00:25:13 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 07:31:40 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' has been recovered (tr. 3522-3524)
+
+[2019-03-06 07:31:40 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 5696@DESKTOP-F3FKHV4
+
+[2019-03-06 07:31:40 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 07:31:40 #4 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 07:31:40 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 07:31:40 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 07:38:06 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' has been recovered (tr. 3525-3528)
+
+[2019-03-06 07:38:06 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 9184@DESKTOP-F3FKHV4
+
+[2019-03-06 07:38:06 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 07:38:06 #4 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 07:38:06 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 07:38:06 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 07:48:35 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 5344@DESKTOP-F3FKHV4
+
+[2019-03-06 07:48:35 #2 type.registry] 
+New type domain.Question
+
+[2019-03-06 07:48:35 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 07:48:35 #4 type.registry] 
+New type domain.Bet
+
+[2019-03-06 07:48:35 #5 type.registry] 
+New type java.util.Hashtable<java.lang.String,domain.Bet>
+
+[2019-03-06 07:48:35 #6 type.registry] 
+New type domain.Event
+
+[2019-03-06 07:48:35 #7 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 07:48:35 #8 type.registry] 
+New type domain.User
+
+[2019-03-06 07:48:35 #9 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 07:48:35 #10 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2019-03-06 07:48:35 #11 type] 
+Type domain.User is not enhanced.
+
+[2019-03-06 07:48:35 #12 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2019-03-06 07:48:35 #13 type.registry] 
+New type java.util.Hashtable<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 07:48:49 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' has been recovered (tr. 1-6)
+
+[2019-03-06 07:48:49 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 232@DESKTOP-F3FKHV4
+
+[2019-03-06 07:48:49 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 07:48:49 #4 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 07:48:49 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 07:48:49 #6 type] 
+Type domain.User is not enhanced.
+
+[2019-03-06 07:48:49 #7 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2019-03-06 07:48:49 #8 type.registry] 
+New type java.util.LinkedList<java.lang.String>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 07:49:32 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' has been recovered (tr. 7-1905)
+
+[2019-03-06 07:49:32 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 6164@DESKTOP-F3FKHV4
+
+[2019-03-06 07:49:32 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 07:49:32 #4 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 07:49:32 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 07:49:32 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 07:51:59 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 10388@DESKTOP-F3FKHV4
+
+[2019-03-06 07:51:59 #2 type.registry] 
+New type domain.Question
+
+[2019-03-06 07:51:59 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 07:51:59 #4 type.registry] 
+New type domain.Bet
+
+[2019-03-06 07:51:59 #5 type.registry] 
+New type java.util.Hashtable<java.lang.String,domain.Bet>
+
+[2019-03-06 07:51:59 #6 type.registry] 
+New type domain.Event
+
+[2019-03-06 07:51:59 #7 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 07:51:59 #8 type.registry] 
+New type domain.User
+
+[2019-03-06 07:51:59 #9 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 07:51:59 #10 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2019-03-06 07:51:59 #11 type] 
+Type domain.User is not enhanced.
+
+[2019-03-06 07:51:59 #12 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2019-03-06 07:51:59 #13 type.registry] 
+New type java.util.Hashtable<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 07:52:09 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' has been recovered (tr. 1-6)
+
+[2019-03-06 07:52:09 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 3868@DESKTOP-F3FKHV4
+
+[2019-03-06 07:52:09 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 07:52:09 #4 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 07:52:09 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 07:52:09 #6 type] 
+Type domain.User is not enhanced.
+
+[2019-03-06 07:52:10 #7 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2019-03-06 07:52:10 #8 type.registry] 
+New type java.util.LinkedList<java.lang.String>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 08:13:02 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 2228@DESKTOP-F3FKHV4
+
+[2019-03-06 08:13:03 #2 type.registry] 
+New type domain.Question
+
+[2019-03-06 08:13:03 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 08:13:03 #4 type.registry] 
+New type domain.Bet
+
+[2019-03-06 08:13:03 #5 type.registry] 
+New type java.util.Hashtable<java.lang.String,domain.Bet>
+
+[2019-03-06 08:13:03 #6 type.registry] 
+New type domain.Event
+
+[2019-03-06 08:13:03 #7 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 08:13:03 #8 type.registry] 
+New type domain.User
+
+[2019-03-06 08:13:03 #9 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 08:13:03 #10 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2019-03-06 08:13:03 #11 type] 
+Type domain.User is not enhanced.
+
+[2019-03-06 08:13:03 #12 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2019-03-06 08:13:03 #13 type.registry] 
+New type java.util.Hashtable<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 08:13:12 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' has been recovered (tr. 1-6)
+
+[2019-03-06 08:13:12 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 8252@DESKTOP-F3FKHV4
+
+[2019-03-06 08:13:13 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 08:13:13 #4 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 08:13:13 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 08:13:13 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 08:13:25 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 10264@DESKTOP-F3FKHV4
+
+[2019-03-06 08:13:25 #2 type.registry] 
+New type domain.Question
+
+[2019-03-06 08:13:25 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 08:13:25 #4 type.registry] 
+New type domain.Bet
+
+[2019-03-06 08:13:25 #5 type.registry] 
+New type java.util.Hashtable<java.lang.String,domain.Bet>
+
+[2019-03-06 08:13:25 #6 type.registry] 
+New type domain.Event
+
+[2019-03-06 08:13:25 #7 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 08:13:25 #8 type.registry] 
+New type domain.User
+
+[2019-03-06 08:13:25 #9 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 08:13:25 #10 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2019-03-06 08:13:25 #11 type] 
+Type domain.User is not enhanced.
+
+[2019-03-06 08:13:25 #12 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2019-03-06 08:13:25 #13 type.registry] 
+New type java.util.Hashtable<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 08:13:35 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' has been recovered (tr. 1-6)
+
+[2019-03-06 08:13:35 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 11384@DESKTOP-F3FKHV4
+
+[2019-03-06 08:13:35 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 08:13:35 #4 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 08:13:35 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 08:13:35 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 08:14:53 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 5620@DESKTOP-F3FKHV4
+
+[2019-03-06 08:14:53 #2 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 08:14:53 #3 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 08:14:53 #4 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 08:14:53 #5 type] 
+Type domain.User is not enhanced.
+
+[2019-03-06 08:14:53 #6 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2019-03-06 08:14:53 #7 type.registry] 
+New type java.util.LinkedList<java.lang.String>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 08:15:04 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' has been recovered (tr. 7-446)
+
+[2019-03-06 08:15:04 #2 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 9236@DESKTOP-F3FKHV4
+
+[2019-03-06 08:15:04 #3 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 08:15:04 #4 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 08:15:04 #5 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 08:15:04 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-03-06 08:15:32 #1 store] 
+Database 'C:\Users\Carlos Dominguez\Desktop\BetAndRuin\resources\db\bets.odb' is opened by 2520@DESKTOP-F3FKHV4
+
+[2019-03-06 08:15:33 #2 type] 
+Type domain.Question is not enhanced.
+
+[2019-03-06 08:15:33 #3 type] 
+Type domain.Bet is not enhanced.
+
+[2019-03-06 08:15:33 #4 type] 
+Type domain.Event is not enhanced.
+
+[2019-03-06 08:15:33 #5 type] 
+Type domain.User is not enhanced.
+

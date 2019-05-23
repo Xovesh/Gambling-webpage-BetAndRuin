@@ -1,0 +1,23 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-19 18:35:12 #1 store] 
+Database 'C:\Users\jipgosaa\Documents\workspace-sts-3.8.2.RELEASE\Bets\resources\bets.temp' is opened by 2796@U102188
+
+[2018-01-19 18:35:12 #2 type.registry] 
+New type domain.Question
+
+[2018-01-19 18:35:12 #3 type] 
+Type domain.Question is not enhanced.
+
+[2018-01-19 18:35:12 #4 type.registry] 
+New type domain.Event
+
+[2018-01-19 18:35:12 #5 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-19 18:35:12 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2018-01-19 18:35:12 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+

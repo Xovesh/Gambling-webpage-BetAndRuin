@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin User Data</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+          id="bootstrap-css">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- table -->
+    <link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/autofill/2.3.2/css/autoFill.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/buttons/1.5.4/css/buttons.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/colreorder/1.5.1/css/colReorder.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/keytable/2.5.0/css/keyTable.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/rowgroup/1.1.0/css/rowGroup.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/rowreorder/1.2.5/css/rowReorder.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/scroller/1.5.1/css/scroller.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/select/1.2.7/css/select.dataTables.min.css" rel="stylesheet">
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/autofill/2.3.2/js/dataTables.autoFill.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.4/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.4/js/buttons.colVis.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.4/js/buttons.flash.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.4/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.4/js/buttons.print.min.js"></script>
+    <script src="https://cdn.datatables.net/colreorder/1.5.1/js/dataTables.colReorder.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedcolumns/3.2.6/js/dataTables.fixedColumns.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
+    <script src="https://cdn.datatables.net/keytable/2.5.0/js/dataTables.keyTable.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/rowgroup/1.1.0/js/dataTables.rowGroup.min.js"></script>
+    <script src="https://cdn.datatables.net/rowreorder/1.2.5/js/dataTables.rowReorder.min.js"></script>
+    <script src="https://cdn.datatables.net/scroller/1.5.1/js/dataTables.scroller.min.js"></script>
+    <script src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
+    <style>
+        body {
+            font: 12px/15px Roboto, "Helvetica Neue", Helvetica, sans-serif;
+            padding: 20px;
+            background-color: #a1c4fd;
+        }
+
+        .user-details {
+            position: relative;
+            padding: 0;
+        }
+
+        .user-details .user-image {
+            position: relative;
+            z-index: 1;
+            width: 300%;
+            text-align: center;
+        }
+
+        .user-image img {
+            clear: both;
+            margin: auto;
+            position: relative;
+        }
+
+        .user-details .user-info-block {
+            width: 300%;
+            position: absolute;
+            top: 55px;
+            background: rgb(255, 255, 255);
+            z-index: 0;
+            padding-top: 50px;
+            border-radius: 30px;
+            margin-bottom: 50px;
+        }
+
+        .user-info-block .user-heading {
+            width: 100%;
+            text-align: center;
+            margin: 10px 0 0;
+        }
+
+        .user-info-block .navigation {
+            float: left;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            border-bottom: 1px solid #428BCA;
+            border-top: 1px solid #428BCA;
+        }
+
+        .navigation li {
+            float: left;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navigation li a {
+            padding: 20px 30px;
+            float: left;
+        }
+
+        .navigation li.active a {
+            background: #428BCA;
+            color: #fff;
+        }
+
+        .user-info-block .user-body {
+            float: left;
+            padding: 5%;
+            width: 100%;
+        }
+
+        .user-body .tab-content > div {
+            float: left;
+            width: 100%;
+        }
+
+        .user-body .tab-content h4 {
+            width: 100%;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .navbar {
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+        }
+
+        .panel {
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+        }
+
+        .panel-heading {
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+        }
+
+    </style>
+</head>
+<body>
+<script>
+    $(document).ready(function () {
+        $('#table_id').DataTable({
+            "bSort": false
+        });
+    });
+    $(document).ready(function () {
+        $('#table_id2').DataTable({
+            "bSort": false
+        });
+    });
+</script>
+<div id="wrapper">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">BetAndRuin</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="/administration/adminmain">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Events
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/administration/adminEventSettings">Settings</a></li>
+                        <li><a href="/administration/adminallevents">All events</a></li>
+                        <li><a href="/administration/adminalleventsbycanbet">All events By can Bet</a></li>
+                        <li><a href="/administration/adminunresolvedevents">Unresolved Events</a></li>
+                        <li><a href="/administration/adminresolvedevents">Resolved Events</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown active">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Users
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/administration/adminusers">All Users</a></li>
+                        <li><a href="/administration/bannedusers">Banned Users</a></li>
+                    </ul>
+                </li>
+                <li><a href="/administration/adminnews">News</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Create
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/administration/admincreateevent">Event</a></li>
+                        <li><a href="/administration/admincreatequestion">Question</a></li>
+                        <li><a href="/administration/admincreatenews">News</a></li>
+                    </ul>
+                </li>
+                <li><a href="/administration/adminstatistics">Statistics</a></li>
+                <li><a href="/administration/adminserverstatus">Server Status</a></li>
+                <li><a href="/administration/adminsettings">Settings</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/administration/logout"><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Starts user view-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-md-4 user-details">
+                <div class="user-image">
+                    <img src="https://i0.wp.com/www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png?fit=256%2C256&amp;quality=100&amp;ssl=1"
+                         alt="User profile image" title="User profile image" class="img-circle" width="98" height="98">
+                </div>
+                <div class="user-info-block">
+                    <div class="user-heading">
+                        <h1>Haileymov</h1>
+                        <h4>Hailey Levi</h4>
+                        <span class="help-block">Spain Donostia</span>
+                    </div>
+                    <ul class="navigation">
+                        <li class="active"><a data-toggle="tab" href="#information"> <span
+                                class="glyphicon glyphicon-user"></span> </a></li>
+                        <li><a data-toggle="tab" href="#settings"> <span class="glyphicon glyphicon-cog"></span> </a>
+                        </li>
+                        <li><a data-toggle="tab" href="#events"> <span class="glyphicon glyphicon-calendar"></span> </a>
+                        </li>
+                        <li><a data-toggle="tab" href="#transactions"> <span class="glyphicon glyphicon-euro"></span>
+                        </a>
+                        </li>
+                    </ul>
+                    <div class="user-body">
+                        <div class="tab-content">
+                            <div id="information" class="tab-pane active">
+                                <h1>Information</h1>
+                                <br>
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th>Data Type</th>
+                                        <th>Data Result</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody class="userinfo">
+                                    <tr>
+                                        <th scope="row">Id</th>
+                                        <td>5</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Username</th>
+                                        <td>Haileymov</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Birth Date</th>
+                                        <td>2005-03-02</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Email</th>
+                                        <td>Haileymov@k7meq.com</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Phone Number</th>
+                                        <td>491710316</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Name</th>
+                                        <td>Hailey</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Surname</th>
+                                        <td>Levi</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Sex</th>
+                                        <td>Other</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Country</th>
+                                        <td>Spain</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">City</th>
+                                        <td>Donostia</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Address</th>
+                                        <td>Somewhere in Donostia</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Wallet Funds</th>
+                                        <td>0.0</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Ip Address</th>
+                                        <td>135.204.57.159</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">First Login</th>
+                                        <td>Thu Mar 14 08:52:37 CET 2019</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Last Login</th>
+                                        <td>Thu Mar 14 08:52:37 CET 2019</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Favourite Sports</th>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Favourite Teams</th>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Total Money Balance</th>
+                                        <td>0.0</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">User rank</th>
+                                        <td>1</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div id="settings" class="tab-pane">
+                                <h1>Settings</h1>
+                                <hr>
+                                <div class="row">
+                                    <div class="form-body">
+                                        <h3 class="form-title text-left">Change user rank</h3>
+                                        <br>
+                                        <form  action="/administration/adminuserdatarankupdate" method="post">
+                                            <fieldset>
+                                                <div class="form-group">
+                                                    <div class="col-xs-12">
+                                                        <label for="rank">Select list:</label>
+                                                        <input type="hidden" id="newusername" name="newusername"
+                                                               value="3487">
+                                                        <select class="form-control" id="rank" name="rank">
+                                                            <option>0. Ban</option>
+                                                            <option>1. Member</option>
+                                                            <option>2. Premium</option>
+                                                            <option>3. Admin</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-xs-12">
+                                                        <br>
+                                                        <div class="form-group text-left">
+                                                            <button class="btn btn-lg btn-success" type="submit"><i
+                                                                    class="glyphicon glyphicon-ok-sign"></i>Update Rank
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <hr>
+                                    <h3 class="form-title text-left">Change User Information</h3>
+                                    <form  class="form" action="/administration/adminuserdataupdate" method="POST"
+                                          id="updateUserInfo">
+                                        <div class="form-group">
+                                            <div class="col-xs-6">
+                                                <label for="first_name"><h4>First name</h4></label>
+                                                <input type="text" class="form-control" name="first_name"
+                                                       id="first_name" placeholder="First Name" value="Haileymov">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-xs-6">
+                                                <label for="last_name"><h4>Last name</h4></label>
+                                                <input type="text" class="form-control" name="last_name" id="last_name"
+                                                       placeholder="Last name" value="Levi">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-xs-6">
+                                                <label for="phone"><h4>Phone Number</h4></label>
+                                                <input type="tel" class="form-control" name="phone" id="phone"
+                                                       placeholder="Phone Number" value="491710316">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-xs-6">
+                                                <label for="sex"><h4>Sex</h4></label>
+                                                <select class="form-control" name="sex" id="sex">
+                                                    <option value="Male">Male</option>
+                                                    <option value="Female">Female</option>
+                                                    <option value="Other">Other</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-xs-6">
+                                                <label for="email"><h4>Email</h4></label>
+                                                <input type="email" class="form-control" name="email" id="email"
+                                                       placeholder="Email" value="Haileymov@k7meq.com">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-xs-6">
+                                                <label for="country"><h4>Country</h4></label>
+                                                <input type="text" class="form-control" name="country" id="country"
+                                                       placeholder="Country" value="Spain">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-xs-6">
+                                                <label for="city"><h4>City</h4></label>
+                                                <input type="text" class="form-control" name="city" id="city"
+                                                       placeholder="City" value="Donostia">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-xs-6">
+                                                <label for="address"><h4>Address</h4></label>
+                                                <input type="text" class="form-control" name="address" id="address"
+                                                       placeholder="Address" value="Somewhere in Donostia">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-xs-12">
+                                                <label for="favouriteSports"><h4>Favourite Sports</h4></label>
+                                                <textarea rows="5" style="resize: none" class="form-control"
+                                                          name="favouriteSports" id="favouriteSports"
+                                                          placeholder="Favourite Sports">No favourite sports</textarea>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-xs-12">
+                                                <label for="favouriteTeams"><h4>Favourite Teams</h4></label>
+                                                <textarea rows="5" style="resize: none" class="form-control"
+                                                          name="favouriteTeams" id="favouriteTeams"
+                                                          placeholder="Favourite Teams">No favourite Teams</textarea>
+                                            </div>
+                                        </div>
+                                        <input type="hidden" name="username" value="Elenaf">
+                                        <div class="form-group">
+                                            <div class="col-xs-12">
+                                                <br>
+                                                <button class="btn btn-lg btn-success" type="submit"><i
+                                                        class="glyphicon glyphicon-ok-sign"></i> Update
+                                                </button>
+                                                <button class=" btn btn-lg" type="reset"><i
+                                                        class="glyphicon glyphicon-repeat"></i> Reset
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="row">
+                                    <hr>
+                                    <h3 class="form-title text-left">Update Funds</h3>
+                                    <form  class="form" action="/administration/updatefunds" method="post"
+                                          id="updateFunds">
+                                        <div class="form-group">
+                                            <div class="col-xs-6">
+                                                <label for="funds"><h4>Repeat Password</h4></label>
+                                                <input type="text" class="form-control" name="funds"
+                                                       id="funds" placeholder="Update Funds" value="100">
+                                            </div>
+                                        </div>
+                                        <input type="hidden" name="username" value="Elenaf">
+                                        <div class=" form-group">
+                                            <div class="col-xs-12">
+                                                <br>
+                                                <button class="btn btn-lg btn-danger" type="submit"><i
+                                                        class="glyphicon glyphicon-ok-sign"></i> Update Funds
+                                                </button>
+                                                <button class="btn btn-lg" type="reset"><i
+                                                        class="glyphicon glyphicon-repeat"></i> Reset
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="row">
+                                    <hr>
+                                    <h3 class="form-title text-left">Change User Password</h3>
+                                    <form  class="form" action="/administration/updateadminpassword" method="post"
+                                          id="updatePassword">
+                                        <div class="form-group">
+                                            <div class="col-xs-6">
+                                                <label for="password"><h4>Password</h4></label>
+                                                <input type="password" class="form-control" name="password"
+                                                       id="password" placeholder="Password" value="">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-xs-6">
+                                                <label for="password2"><h4>Repeat Password</h4></label>
+                                                <input type="password" class="form-control" name="password2"
+                                                       id="password2" placeholder="Repeat Password" value="">
+                                            </div>
+                                        </div>
+                                        <input type="hidden" name="username" value="Elenaf">
+                                        <div class=" form-group">
+                                            <div class="col-xs-12">
+                                                <br>
+                                                <button class="btn btn-lg btn-danger" type="submit"
+                                                ><i
+                                                        class="glyphicon glyphicon-ok-sign"></i> Update Password
+                                                </button>
+                                                <button class="btn btn-lg" type="reset"><i
+                                                        class="glyphicon glyphicon-repeat"></i> Reset
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="row">
+                                    <hr>
+                                    <h3 class="form-title text-left">Delete User</h3>
+                                    <div class="form-group">
+                                        <div class="col-xs-6">
+                                            <div class="form-group text-left">
+                                                <form  method="post" action="/administration/adminuserdelete">
+                                                    <input type="hidden" name="username" value="Elenaf">
+                                                    <button class="btn btn-lg btn-danger" type="submit"><i
+                                                            class="glyphicon glyphicon-ok-sign"></i>Delete User
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="events" class="tab-pane">
+                                <h1>Bets</h1>
+                                <br>
+                                <table id="table_id" class="display">
+                                    <thead>
+                                    <tr>
+                                        <th>Bet ID</th>
+                                        <th>Question ID</th>
+                                        <th>Event name</th>
+                                        <th>Question Name</th>
+                                        <th>Prediction</th>
+                                        <th>Bet Amount</th>
+                                        <th>PayOff</th>
+                                        <th>Final Pay</th>
+                                        <th>winner</th>
+                                        <th>Is Resolved?</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody id="bet">
+                                    <tr>
+                                        <td>Bet ID</td>
+                                        <td>Question ID</td>
+                                        <td>Question Name</td>
+                                        <td>Prediction</td>
+                                        <td>Bet Amount</td>
+                                        <td>PayOff</td>
+                                        <td>Final Pay</td>
+                                        <td>Winner</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div id="transactions" class="tab-pane">
+                                <h1>Transactions</h1>
+                                <br>
+                                <table id="table_id2" class="display">
+                                    <thead>
+                                    <tr>
+                                        <th>Transaction ID</th>
+                                        <th>Date</th>
+                                        <th>Type</th>
+                                        <th>amount</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody id="Transaction">
+                                    <tr>
+                                        <td>1</td>
+                                        <td>2019-2-3</td>
+                                        <td>Purchase Points</td>
+                                        <td>200</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,305 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>BetAndRuin</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- table -->
+    <link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/autofill/2.3.2/css/autoFill.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/buttons/1.5.4/css/buttons.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/colreorder/1.5.1/css/colReorder.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/keytable/2.5.0/css/keyTable.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/rowgroup/1.1.0/css/rowGroup.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/rowreorder/1.2.5/css/rowReorder.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/scroller/1.5.1/css/scroller.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/select/1.2.7/css/select.dataTables.min.css" rel="stylesheet">
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/autofill/2.3.2/js/dataTables.autoFill.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.4/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.4/js/buttons.colVis.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.4/js/buttons.flash.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.4/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.4/js/buttons.print.min.js"></script>
+    <script src="https://cdn.datatables.net/colreorder/1.5.1/js/dataTables.colReorder.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedcolumns/3.2.6/js/dataTables.fixedColumns.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
+    <script src="https://cdn.datatables.net/keytable/2.5.0/js/dataTables.keyTable.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/rowgroup/1.1.0/js/dataTables.rowGroup.min.js"></script>
+    <script src="https://cdn.datatables.net/rowreorder/1.2.5/js/dataTables.rowReorder.min.js"></script>
+    <script src="https://cdn.datatables.net/scroller/1.5.1/js/dataTables.scroller.min.js"></script>
+    <script src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
+
+    <!-- Graph -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body {
+            font: 12px/15px Roboto, "Helvetica Neue", Helvetica, sans-serif;
+            padding: 20px;
+            background-color: #a1c4fd;
+        }
+
+        #wrapper {
+            margin: 0 auto;
+        }
+
+        select,
+        input,
+        .btn {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        .navbar {
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+        }
+
+        .panel {
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+        }
+
+        .panel-heading {
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+<script>
+    $(document).ready(function () {
+        $('#table_id1').DataTable({
+            "bSort": false
+        });
+    });
+    $(document).ready(function () {
+        $('#table_id2').DataTable({
+            "bSort": false
+        });
+    });
+</script>
+<div id="wrapper">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">BetAndRuin</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="/administration/adminmain">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Events
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/administration/adminEventSettings">Settings</a></li>
+                        <li><a href="/administration/adminallevents">All events</a></li>
+                        <li><a href="/administration/adminalleventsbycanbet">All events By can Bet</a></li>
+                        <li><a href="/administration/adminunresolvedevents">Unresolved Events</a></li>
+                        <li><a href="/administration/adminresolvedevents">Resolved Events</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Users
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/administration/adminusers">All Users</a></li>
+                        <li><a href="/administration/bannedusers">Banned Users</a></li>
+                    </ul>
+                </li>
+                <li><a href="/administration/adminnews">News</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Create
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/administration/admincreateevent">Event</a></li>
+                        <li><a href="/administration/admincreatenews">News</a></li>
+                    </ul>
+                </li>
+                <li><a href="/administration/adminstatistics">Statistics</a></li>
+                <li class="active"><a href="/administration/adminserverstatus">Server Status</a></li>
+                <li><a href="/administration/adminsettings">Settings</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/administration/logout"><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3>Connected users</h3>
+                </div>
+                <div class="panel-body">
+                    <table id="table_id1" class="display" style="width:100%">
+                        <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Username</th>
+                        </tr>
+                        </thead>
+                        <tbody id="connectedusers">
+                        <tr>
+                            <td>1</td>
+                            <td>tractor</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>tractor</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>tractor</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>tractor</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>tractor</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>tractor</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>tractor</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>tractor</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>tractor</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>tractor</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3>Last Logins</h3>
+                </div>
+                <div class="panel-body">
+                    <table id="table_id2" class="display" style="width:100%">
+                        <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Username</th>
+                        </tr>
+                        </thead>
+                        <tbody id="lastlogins">
+                        <tr>
+                            <td>1</td>
+                            <td>tractor</td>
+
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>tractor</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>tractor</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>tractor</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>tractor</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>tractor</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>tractor</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>tractor</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>tractor</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>tractor</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3>CPU USAGE (3rd Sprint)</h3>
+                </div>
+                <div class="panel-body">
+                    <div id="myDiv2" >
+                        <script>
+                            var data = [
+                                {
+                                    x: ['2019-03-07', '2019-03-08', '2019-03-09', '2019-03-10', '2019-03-11'],
+                                    y: [12000, 18000, 14500, 20000, 50000],
+                                    type: 'scatter'
+                                }
+                            ];
+                            Plotly.newPlot('myDiv2', data, {}, {showSendToCloud: true});
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3>Server temperatures (3rd Sprint)</h3>
+                </div>
+                <div class="panel-body">
+                    <div id="myDiv3">
+                        <script>
+                            var data = [
+                                {
+                                    x: ['2019-03-07', '2019-03-08', '2019-03-09', '2019-03-10', '2019-03-11'],
+                                    y: [12000, 18000, 14500, 20000, 50000],
+                                    type: 'scatter'
+                                }
+                            ];
+                            Plotly.newPlot('myDiv3', data, {}, {showSendToCloud: true});
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+</div>
+</body>
+</html>

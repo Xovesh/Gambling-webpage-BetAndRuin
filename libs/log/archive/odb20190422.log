@@ -1,0 +1,1375 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 10:17:35 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 7236@DESKTOP-K71H3G5
+
+[2019-04-22 10:17:35 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 10:17:35 #3 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 10:17:35 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 10:17:35 #5 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 10:17:35 #6 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 10:17:35 #7 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 10:17:35 #8 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 10:17:35 #9 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 10:17:35 #10 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 10:25:22 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 4656@DESKTOP-K71H3G5
+
+[2019-04-22 10:25:22 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 10:25:22 #3 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 10:25:22 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 10:25:22 #5 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 10:25:22 #6 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 10:25:22 #7 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 10:25:22 #8 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 10:25:22 #9 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 10:25:22 #10 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 10:36:57 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 5888@DESKTOP-K71H3G5
+
+[2019-04-22 10:36:57 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 10:36:57 #3 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 10:36:57 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 10:36:57 #5 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 10:36:57 #6 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 10:36:57 #7 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 10:36:57 #8 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 10:36:57 #9 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 10:36:57 #10 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 10:37:12 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 3992@DESKTOP-K71H3G5
+
+[2019-04-22 10:37:12 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 10:37:12 #3 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 10:37:12 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 10:37:12 #5 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 10:37:12 #6 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 10:37:12 #7 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 10:37:12 #8 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 10:37:12 #9 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 10:37:12 #10 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 10:37:27 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 5440@DESKTOP-K71H3G5
+
+[2019-04-22 10:37:27 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 10:37:27 #3 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 10:37:27 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 10:37:27 #5 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 10:37:27 #6 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 10:37:27 #7 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 10:37:27 #8 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 10:37:27 #9 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 10:37:27 #10 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 10:38:03 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 12380@DESKTOP-K71H3G5
+
+[2019-04-22 10:38:04 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 10:38:04 #3 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 10:38:04 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 10:38:04 #5 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 10:38:04 #6 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 10:38:04 #7 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 10:38:04 #8 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 10:38:04 #9 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 10:38:04 #10 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 10:38:42 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 8512@DESKTOP-K71H3G5
+
+[2019-04-22 10:38:42 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 10:38:42 #3 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 10:38:42 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 10:38:42 #5 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 10:38:42 #6 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 10:38:42 #7 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 10:38:42 #8 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 10:38:42 #9 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 10:38:42 #10 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 10:41:22 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 11636@DESKTOP-K71H3G5
+
+[2019-04-22 10:41:22 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 10:41:22 #3 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 10:41:22 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 10:41:22 #5 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 10:41:22 #6 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 10:41:22 #7 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 10:41:22 #8 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 10:41:22 #9 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 10:41:22 #10 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 10:41:34 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 8588@DESKTOP-K71H3G5
+
+[2019-04-22 10:41:34 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 10:41:34 #3 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 10:41:34 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 10:41:34 #5 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 10:41:34 #6 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 10:41:34 #7 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 10:41:34 #8 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 10:41:34 #9 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 10:41:34 #10 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 10:46:38 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 7112@DESKTOP-K71H3G5
+
+[2019-04-22 10:46:38 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 10:46:38 #3 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 10:46:38 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 10:46:38 #5 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 10:46:38 #6 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 10:46:38 #7 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 10:46:38 #8 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 10:46:38 #9 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 10:46:38 #10 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 10:51:34 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 9700@DESKTOP-K71H3G5
+
+[2019-04-22 10:51:34 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 10:51:34 #3 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 10:51:34 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 10:51:34 #5 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 10:51:34 #6 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 10:51:34 #7 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 10:51:34 #8 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 10:51:34 #9 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 10:51:34 #10 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 10:52:05 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 9016@DESKTOP-K71H3G5
+
+[2019-04-22 10:52:05 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 10:52:05 #3 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 10:52:05 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 10:52:05 #5 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 10:52:05 #6 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 10:52:05 #7 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 10:52:05 #8 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 10:52:05 #9 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 10:52:05 #10 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 10:57:35 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 364@DESKTOP-K71H3G5
+
+[2019-04-22 10:57:35 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 10:57:35 #3 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 10:57:35 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 10:57:35 #5 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 10:57:35 #6 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 10:57:35 #7 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 10:57:35 #8 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 10:57:35 #9 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 10:57:35 #10 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:05:32 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 10036@DESKTOP-K71H3G5
+
+[2019-04-22 11:05:33 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:05:33 #3 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:05:33 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:05:33 #5 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:05:33 #6 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:05:33 #7 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:05:33 #8 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:05:33 #9 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:05:33 #10 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:11:08 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 8888@DESKTOP-K71H3G5
+
+[2019-04-22 11:11:08 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:11:08 #3 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:11:08 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:11:08 #5 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:11:08 #6 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:11:08 #7 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:11:08 #8 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:11:08 #9 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:11:08 #10 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:12:29 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 12108@DESKTOP-K71H3G5
+
+[2019-04-22 11:12:29 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:12:29 #3 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:12:29 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:12:29 #5 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:12:29 #6 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:12:29 #7 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:12:29 #8 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:12:29 #9 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:12:29 #10 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:14:58 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 40046-40047)
+
+[2019-04-22 11:14:58 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 10884@DESKTOP-K71H3G5
+
+[2019-04-22 11:14:59 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:14:59 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:14:59 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:14:59 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:14:59 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:14:59 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:14:59 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:14:59 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:14:59 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:16:30 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 11164@DESKTOP-K71H3G5
+
+[2019-04-22 11:16:30 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:16:30 #3 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:16:30 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:16:30 #5 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:16:30 #6 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:16:30 #7 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:16:30 #8 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:16:30 #9 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:16:30 #10 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:18:51 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 40048-40049)
+
+[2019-04-22 11:18:51 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 1424@DESKTOP-K71H3G5
+
+[2019-04-22 11:18:51 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:18:51 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:18:51 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:18:51 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:18:51 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:18:51 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:18:51 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:18:51 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:18:51 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:19:25 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 40050-40050)
+
+[2019-04-22 11:19:25 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 8416@DESKTOP-K71H3G5
+
+[2019-04-22 11:19:25 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:19:25 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:19:25 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:19:25 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:19:25 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:19:25 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:19:25 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:19:25 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:19:25 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:19:51 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 40051-40051)
+
+[2019-04-22 11:19:51 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 6920@DESKTOP-K71H3G5
+
+[2019-04-22 11:19:51 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:19:51 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:19:51 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:19:51 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:19:51 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:19:51 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:19:51 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:19:51 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:19:51 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:22:28 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 12708@DESKTOP-K71H3G5
+
+[2019-04-22 11:22:28 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:22:28 #3 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:22:28 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:22:28 #5 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:22:28 #6 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:22:28 #7 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:22:28 #8 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:22:28 #9 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:22:28 #10 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:25:26 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 40052-40052)
+
+[2019-04-22 11:25:26 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 2336@DESKTOP-K71H3G5
+
+[2019-04-22 11:25:26 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:25:26 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:25:26 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:25:26 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:25:26 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:25:26 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:25:26 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:25:26 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:25:26 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:34:06 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 40053-40053)
+
+[2019-04-22 11:34:06 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 9408@DESKTOP-K71H3G5
+
+[2019-04-22 11:34:06 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:34:06 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:34:06 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:34:06 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:34:06 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:34:06 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:34:06 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:34:06 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:34:06 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:34:34 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 40054-40054)
+
+[2019-04-22 11:34:34 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 8368@DESKTOP-K71H3G5
+
+[2019-04-22 11:34:34 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:34:34 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:34:34 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:34:34 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:34:34 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:34:34 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:34:34 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:34:34 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:34:34 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:36:36 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 40055-40055)
+
+[2019-04-22 11:36:36 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 4844@DESKTOP-K71H3G5
+
+[2019-04-22 11:36:37 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:36:37 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:36:37 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:36:37 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:36:37 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:36:37 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:36:37 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:36:37 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:36:37 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:36:55 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 3628@DESKTOP-K71H3G5
+
+[2019-04-22 11:36:55 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:36:55 #3 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:36:55 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:36:55 #5 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:36:55 #6 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:36:55 #7 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:36:55 #8 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:36:55 #9 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:36:55 #10 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:38:11 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 40056-40056)
+
+[2019-04-22 11:38:11 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 10820@DESKTOP-K71H3G5
+
+[2019-04-22 11:38:11 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:38:11 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:38:12 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:38:12 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:38:12 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:38:12 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:38:12 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:38:12 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:38:12 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:39:57 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 40057-40057)
+
+[2019-04-22 11:39:57 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 4448@DESKTOP-K71H3G5
+
+[2019-04-22 11:39:57 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:39:57 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:39:57 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:39:57 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:39:57 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:39:57 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:39:57 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:39:57 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:39:57 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:42:05 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 40058-40058)
+
+[2019-04-22 11:42:05 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 5308@DESKTOP-K71H3G5
+
+[2019-04-22 11:42:06 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:42:06 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:42:06 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:42:06 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:42:06 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:42:06 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:42:06 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:42:06 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:42:06 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:42:13 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 7768@DESKTOP-K71H3G5
+
+[2019-04-22 11:42:13 #2 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:42:13 #3 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:42:13 #4 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:42:13 #5 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:42:13 #6 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:42:13 #7 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:42:13 #8 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:42:13 #9 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:42:13 #10 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:43:37 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 40059-40060)
+
+[2019-04-22 11:43:37 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 4656@DESKTOP-K71H3G5
+
+[2019-04-22 11:43:37 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:43:37 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:43:37 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:43:37 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:43:37 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:43:37 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:43:37 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:43:37 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:43:37 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:45:06 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 40061-40062)
+
+[2019-04-22 11:45:06 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 3264@DESKTOP-K71H3G5
+
+[2019-04-22 11:45:06 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:45:06 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:45:06 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:45:06 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:45:06 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:45:06 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:45:06 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:45:06 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:45:06 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:45:30 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 40063-40063)
+
+[2019-04-22 11:45:30 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 12108@DESKTOP-K71H3G5
+
+[2019-04-22 11:45:30 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:45:30 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:45:30 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:45:30 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:45:30 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:45:30 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:45:30 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:45:30 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:45:30 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:46:09 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 40064-40064)
+
+[2019-04-22 11:46:09 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 12272@DESKTOP-K71H3G5
+
+[2019-04-22 11:46:09 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:46:09 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:46:09 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:46:09 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:46:09 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:46:09 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:46:09 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:46:09 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:46:09 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:49:37 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 40065-40065)
+
+[2019-04-22 11:49:37 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 900@DESKTOP-K71H3G5
+
+[2019-04-22 11:49:37 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:49:37 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:49:37 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:49:37 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:49:37 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:49:37 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:49:37 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:49:37 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:49:37 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:49:59 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 40066-40066)
+
+[2019-04-22 11:49:59 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 9600@DESKTOP-K71H3G5
+
+[2019-04-22 11:49:59 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:49:59 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:49:59 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:49:59 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:49:59 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:49:59 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:49:59 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:49:59 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:49:59 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:53:21 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 40067-40067)
+
+[2019-04-22 11:53:21 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 5240@DESKTOP-K71H3G5
+
+[2019-04-22 11:53:21 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:53:21 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:53:21 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:53:21 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:53:21 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:53:21 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:53:21 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:53:21 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:53:21 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 11:55:33 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 40068-40068)
+
+[2019-04-22 11:55:33 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 12464@DESKTOP-K71H3G5
+
+[2019-04-22 11:55:33 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 11:55:33 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 11:55:33 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 11:55:33 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 11:55:33 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 11:55:33 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 11:55:33 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 11:55:33 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 11:55:33 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 12:06:07 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 40069-40069)
+
+[2019-04-22 12:06:07 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 9896@DESKTOP-K71H3G5
+
+[2019-04-22 12:06:07 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 12:06:07 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 12:06:07 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 12:06:07 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 12:06:07 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 12:06:07 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 12:06:07 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 12:06:07 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 12:06:07 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2019-04-22 12:12:00 #1 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' has been recovered (tr. 40070-40080)
+
+[2019-04-22 12:12:00 #2 store] 
+Database 'C:\Users\Carlos\Desktop\BetAndRuin_FloatSoft\resources\db\bets.odb' is opened by 12616@DESKTOP-K71H3G5
+
+[2019-04-22 12:12:00 #3 type] 
+Type domainV2.User is not enhanced.
+
+[2019-04-22 12:12:00 #4 type] 
+Type domainV2.Transaction is not enhanced.
+
+[2019-04-22 12:12:00 #5 type] 
+Type domainV2.News is not enhanced.
+
+[2019-04-22 12:12:00 #6 type] 
+Type domainV2.event.Event is not enhanced.
+
+[2019-04-22 12:12:00 #7 type] 
+Type domainV2.question.Question is not enhanced.
+
+[2019-04-22 12:12:00 #8 type] 
+Type domainV2.util.Translation is not enhanced.
+
+[2019-04-22 12:12:00 #9 type] 
+Type domainV2.bet.BetSuperClass is not enhanced.
+
+[2019-04-22 12:12:00 #10 type] 
+Type domainV2.bet.Bet is not enhanced.
+
+[2019-04-22 12:12:00 #11 type] 
+Type domainV2.RecoverPassword is not enhanced.
+

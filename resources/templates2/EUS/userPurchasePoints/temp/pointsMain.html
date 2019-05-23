@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta charset="utf-8"> 
+  <title>BetAndRuin</title> 
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> 
+  <link href="http://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet" type="text/css"> 
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"> 
+  <style>
+        body {
+            font: 12px/15px Roboto, "Helvetica Neue", Helvetica, sans-serif;
+            padding: 20px;
+        }
+
+        #offerBtn {
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+
+        #ownInput {
+            padding-bottom: 10px;
+            padding-top: 5px;
+        }
+    </style> 
+ </head> 
+ <body> 
+  <script>
+        function AddCustomPoints() {
+            var x = document.getElementById("customInput").getValue;
+            if (x >= 10) {
+                document.getElementById("customPoints").disabled = false;
+            }
+            else if (x < 10) {
+                document.getElementById("customPoints").disabled = true;
+            }
+
+        }
+
+        function modalInfo(amount) {
+            var x = document.getElementById("modalMoneyInfo").firstChild;
+            var y = document.getElementById("modalPointsInfo").firstChild;
+            var resultPoints = amount * 10;
+            x.nodeValue = x.nodeValue + amount.toString();
+            y.nodeValue = y.nodeValue + resultPoints.toString();
+        }
+
+        function clearFields(){
+            var x = document.getElementById("modalMoneyInfo").firstChild;
+            var y = document.getElementById("modalPointsInfo").firstChild;
+            x.nodeValue = "Amount to be paid: ";
+            y.nodeValue = "Points to be added: ";
+
+        }
+    </script> 
+  <div class="modal" tabindex="-1" role="dialog" id="paymentInfo" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+   <div class="modal-dialog" role="document"> 
+    <div class="modal-content"> 
+     <div class="modal-header"> 
+      <h5 class="modal-title" id="exampleModalLabel">Confirm payment</h5> 
+     </div> 
+     <!--Modal body--> 
+     <div class="modal-body"> 
+      <div id="modalInformation">
+       <h5>Adding points</h5>
+       <p>Username: Carlos</p>
+       <p>Billing address: Somewhere in Donostia</p>
+       <p id="modalMoneyInfo"> Amount to be paid: </p>
+       <p id="modalPointsInfo"> Points to be added: </p> 
+       <p>Date: 2019.03.26</p>
+      </div> 
+      <!--Select payment method and pay--> 
+      <!--Uses fontAwesome css--> 
+      <div class="panel panel-default"> 
+       <div class="panel-body p-5"> 
+        <ul class="nav bg-light nav-pills rounded nav-fill mb-3" role="tablist"> 
+         <li class="nav-item"> <a class="nav-link active" data-toggle="pill" href="#nav-tab-card"> <i class="fa fa-credit-card"></i> Credit Card</a></li> 
+         <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#nav-tab-paypal"> <i class="fab fa-paypal"></i> Paypal</a></li> 
+        </ul> 
+        <div class="tab-content"> 
+         <div class="tab-pane fade in active" id="nav-tab-card"> 
+          <form role="form"> 
+           <div class="form-group"> 
+            <label class="mt-3" for="username">Full name (on the card)</label> 
+            <input type="text" class="form-control" name="username" placeholder="" required> 
+           </div> 
+           <!-- form-group.// --> 
+           <div class="form-group"> 
+            <label for="cardNumber">Card number</label> 
+            <div class="input-group"> 
+             <input type="text" class="form-control" name="cardNumber" placeholder=""> 
+             <div class="input-group-append"> 
+              <span class="input-group-text text-muted"> <i class="fab fa-cc-visa"></i> &nbsp; <i class="fab fa-cc-amex"></i> &nbsp; <i class="fab fa-cc-mastercard"></i> </span> 
+             </div> 
+            </div> 
+           </div> 
+           <!-- form-group.// --> 
+           <div class="row"> 
+            <div class="col-sm-8"> 
+             <div class="form-group"> 
+              <label><span>Expiration</span> </label> 
+              <div class="input-group"> 
+               <input type="number" class="form-control" placeholder="MM" name=""> 
+               <input type="number" class="form-control" placeholder="YY" name=""> 
+              </div> 
+             </div> 
+            </div> 
+            <div class="col-sm-4"> 
+             <div class="form-group"> 
+              <label>CVV</label> 
+              <input type="number" class="form-control" required> 
+             </div> 
+             <!-- form-group.// --> 
+            </div> 
+           </div> 
+           <!-- row.// --> 
+          </form> 
+         </div> 
+         <!-- tab-pane.// --> 
+         <div class="tab-pane fade" id="nav-tab-paypal"> 
+          <h4>Paypal is easiest way to pay online</h4> 
+          <p> <button type="button" class="btn btn-primary btn-xs"> <i class="fab fa-paypal"></i> Log in my Paypal </button> </p> 
+          <p><strong>Note:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> 
+         </div> 
+        </div> 
+        <!-- tab-content .// --> 
+       </div> 
+       <!-- panel-body.// --> 
+      </div> 
+      <!-- panel.// --> 
+     </div> 
+     <!--Modal body--> 
+     <div class="modal-footer"> 
+      <button type="button" class="btn btn-primary" onclick="clearFields()">Proceed</button> 
+      <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="clearFields()"> Close</button> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="wrapper"> 
+   <nav class="navbar navbar-default navbar-inverse"> 
+    <div class="container-fluid"> 
+     <div class="navbar-header"> 
+      <a class="navbar-brand" href="#">BetAndRuin</a> 
+     </div> 
+     <ul class="nav navbar-nav"> 
+      <li class="active" href="#"><a href>Purchase points</a></li> 
+      <li><a href="/userpurchasepoints/userpayments">Payments</a></li> 
+      <li><a href="#">Cash out</a></li> 
+     </ul> 
+    </div> 
+   </nav> 
+   <div> 
+    <pre id="currentPoints">Points: 0.0<br>10 points = 1 EUR</pre> 
+   </div> 
+   <!--Promotions--> 
+   <div class="col-sm-6"> 
+    <div class="row"> 
+     <div class="col-sm-12" id="offerBtn"> 
+      <button type="button" class="btn btn-success primary btn-block btn-xs" data-toggle="modal" data-target="#paymentInfo" onclick="modalInfo(10)"><strong>Minimum</strong><br> Add <strong>100</strong> points <br> <br>Cost: 10 EUR</button> 
+     </div> 
+    </div> 
+    <div class="row"> 
+     <div class="col-sm-12" id="offerBtn"> 
+      <button type="button" class="btn btn-success primary btn-block btn-xs" data-toggle="modal" data-target="#paymentInfo" onclick="modalInfo(25)"><strong>Basic</strong><br> Add <strong>250</strong> points <br> <br>Cost: 25 EUR</button> 
+     </div> 
+    </div> 
+    <div class="row"> 
+     <div class="col-sm-12" id="offerBtn"> 
+      <button type="button" class="btn btn-success primary btn-block btn-xs" data-toggle="modal" data-target="#paymentInfo" onclick="modalInfo(100)"><strong>Normal</strong> <br> Add <strong>1000</strong> points <br> <br>Cost: 100 EUR</button> 
+     </div> 
+    </div> 
+    <div class="row"> 
+     <div class="col-sm-12" id="offerBtn"> 
+      <button type="button" class="btn btn-success primary btn-block btn-xs" data-toggle="modal" data-target="#paymentInfo" onclick="modalInfo(500)"><strong>Advanced</strong><br> Add <strong>5000</strong> points <br> <br>Cost: 500 EUR</button> 
+     </div> 
+    </div> 
+    <div class="row"> 
+     <div class="col-sm-12" id="offerBtn"> 
+      <button type="button" class="btn btn-success primary btn-block btn-xs" data-toggle="modal" data-target="#paymentInfo" onclick="modalInfo(1000)"><strong>Exclusive</strong> <br> Add <strong>10000</strong> points<br> <br>Cost: 1000 EUR</button> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="col-sm-6"> 
+    <div class="row"> 
+     <div class="col-sm-12" id="ownInput"> 
+      <pre>Add your own amount of points <br>Minimum conversion 100 points</pre> 
+      <input id="customInput" type="number" class="form-control" placeholder="Points to be added" min="10" onkeypress="return event.charCode >= 48" onkeydown="javascript: return event.keyCode == 69 ? false : true" onkeyup="AddCustomPoints()"> 
+     </div> 
+     <div> 
+      <button id="customPoints" type="button" class="btn btn-success btn-sm center-block" disabled data-toggle="modal" data-target="#paymentInfo">Add</button> 
+     </div> 
+    </div> 
+   </div> 
+  </div>  
+ </body>
+</html>

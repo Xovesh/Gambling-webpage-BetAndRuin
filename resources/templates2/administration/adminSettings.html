@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>BetAndRuin</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            font: 12px/15px Roboto, "Helvetica Neue", Helvetica, sans-serif;
+            padding: 20px;
+            background-color: #a1c4fd;
+        }
+
+        select,
+        input,
+        .btn {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        #wrapper {
+            margin: 0 auto;
+        }
+
+        .navbar {
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div id="wrapper">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">BetAndRuin</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="/administration/adminmain">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Events
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/administration/adminEventSettings">Settings</a></li>
+                        <li><a href="/administration/adminallevents">All events</a></li>
+                        <li><a href="/administration/adminalleventsbycanbet">All events By can Bet</a></li>
+                        <li><a href="/administration/adminunresolvedevents">Unresolved Events</a></li>
+                        <li><a href="/administration/adminresolvedevents">Resolved Events</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Users
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/administration/adminusers">All Users</a></li>
+                        <li><a href="/administration/bannedusers">Banned Users</a></li>
+                    </ul>
+                </li>
+                <li><a href="/administration/adminnews">News</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Create
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/administration/admincreateevent">Event</a></li>
+                        <li><a href="/administration/admincreatenews">News</a></li>
+                    </ul>
+                </li>
+                <li><a href="/administration/adminstatistics">Statistics</a></li>
+                <li><a href="/administration/adminserverstatus">Server Status</a></li>
+                <li class="active"><a href="/administration/adminsettings">Settings</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/administration/logout"><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3>Settings</h3></div>
+        <div class="panel-body">
+            <h4>Customer support settings</h4>
+            <div class="panel-group">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" href="#collapse1">Spanish settings</a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="form-group" id="spanishPreview">
+                                <div class="col-xs-12">
+                                    <h4>Preview</h4>
+                                    <h1>Hello there</h1>
+                                </div>
+                            </div>
+                            <form id="spanish" method="post" action="/administration/updatesupportinfo">
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <label for="contentSpanish"><h4>Support message</h4></label>
+                                        <textarea rows="10" class="form-control" name="content" id="contentSpanish"
+                                                  placeholder="Content"></textarea>
+                                    </div>
+                                </div>
+                                <input type="hidden" name="language" value="ES">
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <hr>
+                                        <button class="btn btn-lg btn-success" type="submit"><i
+                                                class="glyphicon glyphicon-ok-sign"></i> Update
+                                        </button>
+                                        <button class=" btn btn-lg" type="reset"><i
+                                                class="glyphicon glyphicon-repeat"></i> Reset
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" href="#collapse2">English settings</a>
+                        </h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="form-group" id="englishPreview">
+                                <div class="col-xs-12">
+                                    <h4>Preview</h4>
+                                    <h1>Hello there</h1>
+                                </div>
+                            </div>
+                            <form id="english" method="post" action="/administration/updatesupportinfo">
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <label for="contentEnglish"><h4>Support message</h4></label>
+                                        <textarea rows="10" class="form-control" name="content"
+                                                  id="contentEnglish"
+                                                  placeholder="Content"></textarea>
+                                    </div>
+                                </div>
+                                <input type="hidden" name="language" value="EN">
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <hr>
+                                        <button class="btn btn-lg btn-success" type="submit"><i
+                                                class="glyphicon glyphicon-ok-sign"></i> Update
+                                        </button>
+                                        <button class=" btn btn-lg" type="reset"><i
+                                                class="glyphicon glyphicon-repeat"></i> Reset
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" href="#collapse3">Basque settings</a>
+                        </h4>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="form-group" id="basquePreview">
+                                <div class="col-xs-12">
+                                    <h4>Preview</h4>
+                                    <h1>Hello there</h1>
+                                </div>
+                            </div>
+                            <form pattern="[^&]+" id="basque" method="post" action="/administration/updatesupportinfo">
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <label for="contentBasque"><h4>Support message</h4></label>
+                                        <textarea rows="10" class="form-control" name="content" id="contentBasque"
+                                                  placeholder="Content"></textarea>
+                                    </div>
+                                </div>
+                                <input type="hidden" name="language" value="EN">
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <hr>
+                                        <button class="btn btn-lg btn-success" type="submit"><i
+                                                class="glyphicon glyphicon-ok-sign"></i> Update
+                                        </button>
+                                        <button class=" btn btn-lg" type="reset"><i
+                                                class="glyphicon glyphicon-repeat"></i> Reset
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div id="Maintenance">
+                <h4>Maintanance mode</h4>
+                <h5>The maintanance mode is NOT activated</h5>
+                <div class="row">
+                    <form pattern="[^&]+" method="post" action="/administration/maintenancemodechange">
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <button class="btn btn-lg btn-danger" type="submit"><i
+                                        class="glyphicon glyphicon-ok-sign"></i> Activate
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

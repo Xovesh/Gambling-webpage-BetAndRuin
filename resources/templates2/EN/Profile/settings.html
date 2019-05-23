@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>BetAndRuin</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <style>
+        body {
+            font: 12px/15px Roboto, "Helvetica Neue", Helvetica, sans-serif;
+            background-color: #222;
+            border-color: #080808;
+            color: #777;
+        }
+
+        #navIcon {
+            padding: 0.5em;
+            float: right;
+        }
+
+        #currentPoints {
+            padding: 1.3em;
+            float: right;
+        }
+
+        #logOut {
+            float: right;
+        }
+
+        .container {
+            background: #f8ffff;
+            border-radius: 10px;
+            color: #000000;
+            padding: 50px;
+        }
+    </style>
+</head>
+
+<body>
+<script>
+    function evaluatePassword() {
+        var ucase = new RegExp("[A-Z]+");
+        var lcase = new RegExp("[a-z]+");
+        var num = new RegExp("[0-9]+");
+        var isStrong = [];
+
+        if ($("#password1").val().length >= 8) {
+            $("#8char").removeClass("glyphicon-remove");
+            $("#8char").addClass("glyphicon-ok");
+            $("#8char").css("color", "#00A41E");
+            isStrong[0] = "true";
+        } else {
+            $("#8char").removeClass("glyphicon-ok");
+            $("#8char").addClass("glyphicon-remove");
+            $("#8char").css("color", "#FF0004");
+            isStrong[0] = "";
+        }
+
+        if (ucase.test($("#password1").val())) {
+            $("#ucase").removeClass("glyphicon-remove");
+            $("#ucase").addClass("glyphicon-ok");
+            $("#ucase").css("color", "#00A41E");
+            isStrong[1] = "true";
+
+        } else {
+            $("#ucase").removeClass("glyphicon-ok");
+            $("#ucase").addClass("glyphicon-remove");
+            $("#ucase").css("color", "#FF0004");
+            isStrong[1] = "";
+
+        }
+
+        if (lcase.test($("#password1").val())) {
+            $("#lcase").removeClass("glyphicon-remove");
+            $("#lcase").addClass("glyphicon-ok");
+            $("#lcase").css("color", "#00A41E");
+            isStrong[2] = "true";
+        } else {
+            $("#lcase").removeClass("glyphicon-ok");
+            $("#lcase").addClass("glyphicon-remove");
+            $("#lcase").css("color", "#FF0004");
+            isStrong[2] = "";
+        }
+
+        if (num.test($("#password1").val())) {
+            $("#num").removeClass("glyphicon-remove");
+            $("#num").addClass("glyphicon-ok");
+            $("#num").css("color", "#00A41E");
+            isStrong[3] = "true";
+
+        } else {
+            $("#num").removeClass("glyphicon-ok");
+            $("#num").addClass("glyphicon-remove");
+            $("#num").css("color", "#FF0004");
+            isStrong[3] = "";
+
+        }
+
+        if ($("#password1").val() == $("#password2").val()) {
+            $("#pwmatch").removeClass("glyphicon-remove");
+            $("#pwmatch").addClass("glyphicon-ok");
+            $("#pwmatch").css("color", "#00A41E");
+            isStrong[4] = "true";
+        } else {
+            $("#pwmatch").removeClass("glyphicon-ok");
+            $("#pwmatch").addClass("glyphicon-remove");
+            $("#pwmatch").css("color", "#FF0004");
+            isStrong[4] = "";
+        }
+
+        if (isStrong.includes("")) {
+            document.getElementById("changePswBtn").setAttribute("disabled", "disabled");
+        } else {
+            document.getElementById("changePswBtn").removeAttribute("disabled");
+        }
+    };
+</script>
+<div id="wrapper">
+    <nav class="navbar navbar-default navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/mainPage">BetAndRuin</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="/mainPage">HomePage</a></li>
+                <li><a href="/userprofile">Profile Info</a></li>
+                <li><a href="/purchasepoints">Purchase points</a></li>
+                <li><a href="/cashout">Cash Out</a></li>
+                <li><a href="/userpayments">Payments</a></li>
+                <li><a href="/settings">Settings</a></li>
+                <li><a href="/userbets">Bets</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a id="logOut" href="/logout"><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+                        Select Language
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/changeLanguage/ES">Spanish(Español)</a></li>
+                        <li><a href="/changeLanguage/EN">English(English)</a></li>
+                        <li><a href="/changeLanguage/EUS">Basque(Euskera)</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><i id="navIcon" class="fas fa-coins fa-2x"></i>
+                    <div id="currentPoints">999920</div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="settingsInfo">
+            <div class="row">
+                <h1>Settings</h1>
+                <span id="update"><h2><font color="green"></font></h2></span>
+                <hr>
+                <h3 class="form-title text-left">Change Information</h3>
+                <form class="form" data-toggle="validator" action="/updateinfo" method="POST" id="updateInfo">
+                    <div class="form-group has-feedback">
+                        <div class="col-xs-6">
+                            <label for="first_name">
+                                <h4>First name</h4>
+                            </label>
+                            <input type="text" class="form-control" name="first_name" id="first_name"
+                                   placeholder="First Name" value="Haileymov" required>
+                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <div class="col-xs-6">
+                            <label for="last_name">
+                                <h4>Last name</h4>
+                            </label>
+                            <input type="text" class="form-control" name="last_name" id="last_name"
+                                   placeholder="Last name" value="Levi" required>
+                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <div class="col-xs-6">
+                            <label for="phone">
+                                <h4>Phone Number</h4>
+                            </label>
+                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone Number"
+                                   value="491710316" pattern="^(:?([+]*[0-9]{1,4}[&quot &quot]{1}))*[0-9]{4,13}$"
+                                   maxlength="15" required>
+                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <div class="col-xs-6">
+                            <label for="sex">
+                                <h4>Sex</h4>
+                            </label>
+                            <select class="form-control" name="sex" id="sex">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <div class="col-xs-6">
+                            <label for="email">
+                                <h4>Email</h4>
+                            </label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email"
+                                   value="Haileymov@k7meq.com" data-error="That email address is invalid" required>
+                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <div class="col-xs-6">
+                            <label for="country">
+                                <h4>Country</h4>
+                            </label>
+                            <input type="text" class="form-control" name="country" id="country" placeholder="Country"
+                                   value="Spain" required>
+                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <div class="col-xs-6">
+                            <label for="city">
+                                <h4>City</h4>
+                            </label>
+                            <input type="text" class="form-control" name="city" id="city" placeholder="City"
+                                   value="Donostia" required>
+                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <div class="col-xs-6">
+                            <label for="address">
+                                <h4>Address</h4>
+                            </label>
+                            <input type="text" class="form-control" name="address" id="address" placeholder="Address"
+                                   value="Somewhere in Donostia" required>
+                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <div class="col-xs-12">
+                            <label for="favouriteSports">
+                                <h4>Favourite Sports</h4>
+                                <h5>Separate by ;</h5>
+                            </label>
+                            <textarea rows="5" style="resize: none" class="form-control" name="favouriteSports"
+                                      id="favouriteSports" placeholder="Favourite Sports">No favourite sports</textarea>
+                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <div class="col-xs-12">
+                            <label for="favouriteTeams">
+                                <h4>Favourite Teams</h4>
+                                <h5>Separate by ;</h5>
+                            </label>
+                            <textarea rows="5" style="resize: none" class="form-control" name="favouriteTeams"
+                                      id="favouriteTeams" placeholder="Favourite Teams">No favourite Teams</textarea>
+                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <input type="hidden" name="username" value="Elenaf">
+                    <div class="form-group">
+                        <div class="col-xs-12">
+                            <br>
+                            <button class="btn btn-lg btn-success" type="submit"><i
+                                    class="glyphicon glyphicon-ok-sign"></i> Update
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <h3>Change Password</h3>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 ">
+                <form role="form" method="POST" id="passwordForm" action="/changePassword">
+                    <input type="password" class="input-lg form-control" name="password1" id="password1"
+                           placeholder="New Password" autocomplete="off" oninput="evaluatePassword()">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <span id="8char" class="glyphicon glyphicon-remove" style="color:#FF0004;"></span> 8
+                            Characters
+                            Long<br>
+                            <span id="ucase" class="glyphicon glyphicon-remove" style="color:#FF0004;"></span>
+                            One Uppercase
+                            Letter
+                        </div>
+                        <div class="col-sm-6">
+                            <span id="lcase" class="glyphicon glyphicon-remove" style="color:#FF0004;"></span>
+                            One Lowercase
+                            Letter<br>
+                            <span id="num" class="glyphicon glyphicon-remove" style="color:#FF0004;"></span> One
+                            Number
+                        </div>
+                    </div>
+                    <input type="password" class="input-lg form-control" name="password2" id="password2"
+                           placeholder="Repeat Password" autocomplete="off" oninput="evaluatePassword()">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <span id="pwmatch" class="glyphicon glyphicon-remove" style="color:#FF0004;"></span>
+                            Passwords
+                            Match
+                        </div>
+                    </div>
+                    <button id="changePswBtn" type="submit" class="col-xs-12 btn btn-success btn-load btn-lg"
+                            disabled>Change password!
+                    </button>
+                </form>
+            </div>
+            <!--/col-sm-6-->
+        </div>
+        <!--/row-->
+    </div>
+
+</div>
+</div>
+</div>
+</body>
+
+</html>

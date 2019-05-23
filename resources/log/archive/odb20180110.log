@@ -1,0 +1,1311 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 10:18:36 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 18680@despacho.local
+
+[2018-01-10 10:18:36 #2 type.registry] 
+New type domain.RuralHouse
+
+[2018-01-10 10:18:36 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-01-10 10:18:36 #4 type.registry] 
+New type domain.Offer
+
+[2018-01-10 10:18:36 #5 type.registry] 
+New type java.util.Vector<domain.Offer>
+
+[2018-01-10 10:18:36 #6 type] 
+Type domain.Offer is not enhanced.
+
+[2018-01-10 10:18:36 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 10:53:04 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 18752@despacho.local
+
+[2018-01-10 10:53:05 #2 type.registry] 
+New type domain.RuralHouse
+
+[2018-01-10 10:53:05 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-01-10 10:53:05 #4 type.registry] 
+New type domain.Offer
+
+[2018-01-10 10:53:05 #5 type.registry] 
+New type java.util.Vector<domain.Offer>
+
+[2018-01-10 10:53:05 #6 type] 
+Type domain.Offer is not enhanced.
+
+[2018-01-10 10:53:05 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 15:19:02 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19428@despacho.local
+
+[2018-01-10 15:19:03 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 15:19:03 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 15:19:03 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 15:19:03 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 15:19:03 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 15:19:03 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 15:20:28 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19431@despacho.local
+
+[2018-01-10 15:20:28 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 15:20:28 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 15:20:28 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 15:20:28 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 15:20:28 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 15:20:28 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 15:30:36 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19450@despacho.local
+
+[2018-01-10 15:30:36 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 15:30:36 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 15:30:36 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 15:30:36 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 15:30:36 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 15:30:36 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 15:33:05 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19455@despacho.local
+
+[2018-01-10 15:33:06 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 15:33:06 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 15:33:06 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 15:33:06 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 15:33:06 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 15:33:06 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 15:33:54 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19457@despacho.local
+
+[2018-01-10 15:33:54 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 15:33:54 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 15:33:54 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 15:33:54 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 15:33:54 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 15:33:54 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 15:34:39 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19459@despacho.local
+
+[2018-01-10 15:34:39 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 15:34:39 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 15:34:39 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 15:34:39 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 15:34:39 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 15:34:39 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 15:40:06 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19471@despacho.local
+
+[2018-01-10 15:40:06 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 15:40:06 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 15:40:06 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 15:40:06 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 15:40:06 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 15:40:06 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 15:40:41 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19473@despacho.local
+
+[2018-01-10 15:40:41 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 15:40:41 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 15:40:41 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 15:40:41 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 15:40:41 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 15:40:41 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 15:41:25 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19477@despacho.local
+
+[2018-01-10 15:41:25 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 15:41:25 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 15:41:25 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 15:41:25 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 15:41:25 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 15:41:25 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 15:44:34 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19481@despacho.local
+
+[2018-01-10 15:44:35 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 15:44:35 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 15:44:35 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 15:44:35 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 15:44:35 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 15:44:35 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 15:46:16 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19485@despacho.local
+
+[2018-01-10 15:46:16 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 15:46:16 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 15:46:16 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 15:46:16 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 15:46:16 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 15:46:16 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 15:48:30 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19490@despacho.local
+
+[2018-01-10 15:48:30 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 15:48:30 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 15:48:30 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 15:48:30 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 15:48:30 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 15:48:30 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 15:53:45 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19536@despacho.local
+
+[2018-01-10 15:53:45 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 15:53:45 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 15:53:45 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 15:53:45 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 15:53:45 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 15:53:45 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 15:54:35 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19538@despacho.local
+
+[2018-01-10 15:54:35 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 15:54:35 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 15:54:35 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 15:54:35 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 15:54:35 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 15:54:35 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 15:57:00 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19543@despacho.local
+
+[2018-01-10 15:57:00 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 15:57:00 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 15:57:00 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 15:57:00 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 15:57:00 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 15:57:00 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 15:58:37 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19585@despacho.local
+
+[2018-01-10 15:58:38 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 15:58:38 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 15:58:38 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 15:58:38 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 15:58:38 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 15:58:38 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 15:59:38 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19588@despacho.local
+
+[2018-01-10 15:59:38 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 15:59:38 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 15:59:38 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 15:59:38 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 15:59:38 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 15:59:38 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:00:14 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19591@despacho.local
+
+[2018-01-10 16:00:14 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:00:14 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:00:14 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:00:14 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:00:14 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:00:14 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:00:48 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19594@despacho.local
+
+[2018-01-10 16:00:48 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:00:48 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:00:48 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:00:48 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:00:48 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:00:48 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:01:01 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19596@despacho.local
+
+[2018-01-10 16:01:01 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:01:01 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:01:01 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:01:01 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:01:01 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:01:01 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:01:20 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19598@despacho.local
+
+[2018-01-10 16:01:20 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:01:20 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:01:20 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:01:20 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:01:20 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:01:20 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:02:23 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19604@despacho.local
+
+[2018-01-10 16:02:23 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:02:23 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:02:23 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:02:23 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:02:23 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:02:23 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:03:42 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19609@despacho.local
+
+[2018-01-10 16:03:42 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:03:42 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:03:42 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:03:42 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:03:42 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:03:42 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:05:02 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19611@despacho.local
+
+[2018-01-10 16:05:02 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:05:02 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:05:02 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:05:02 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:05:02 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:05:02 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:12:21 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19628@despacho.local
+
+[2018-01-10 16:12:21 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:12:21 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:12:21 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:12:21 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:12:21 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:12:21 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:17:23 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19633@despacho.local
+
+[2018-01-10 16:17:23 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:17:23 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:17:23 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:17:23 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:17:23 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:17:23 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:18:18 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19635@despacho.local
+
+[2018-01-10 16:18:18 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:18:18 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:18:18 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:18:18 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:18:18 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:18:18 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:19:29 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19641@despacho.local
+
+[2018-01-10 16:19:29 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:19:29 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:19:29 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:19:29 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:19:29 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:19:29 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:20:25 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19643@despacho.local
+
+[2018-01-10 16:20:25 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:20:25 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:20:25 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:20:25 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:20:25 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:20:25 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:22:00 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19649@despacho.local
+
+[2018-01-10 16:22:00 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:22:00 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:22:00 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:22:00 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:22:00 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:22:00 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:22:41 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19652@despacho.local
+
+[2018-01-10 16:22:41 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:22:41 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:22:41 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:22:41 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:22:41 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:22:41 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:23:11 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19654@despacho.local
+
+[2018-01-10 16:23:11 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:23:11 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:23:11 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:23:11 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:23:11 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:23:11 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:25:31 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19656@despacho.local
+
+[2018-01-10 16:25:31 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:25:31 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:25:31 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:25:32 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:25:32 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:25:32 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:29:12 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19663@despacho.local
+
+[2018-01-10 16:29:12 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:29:12 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:29:12 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:29:12 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:29:12 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:29:12 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:30:36 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19666@despacho.local
+
+[2018-01-10 16:30:37 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:30:37 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:30:37 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:30:37 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:30:37 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:30:37 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:31:25 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19670@despacho.local
+
+[2018-01-10 16:31:25 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:31:25 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:31:25 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:31:25 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:31:25 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:31:25 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:32:13 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19672@despacho.local
+
+[2018-01-10 16:32:14 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:32:14 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:32:14 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:32:14 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:32:14 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:32:14 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:33:03 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19674@despacho.local
+
+[2018-01-10 16:33:03 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:33:03 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:33:03 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:33:03 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:33:03 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:33:03 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:34:20 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19698@despacho.local
+
+[2018-01-10 16:34:20 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:34:20 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:34:20 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:34:20 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:34:20 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:34:20 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:35:10 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19700@despacho.local
+
+[2018-01-10 16:35:10 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:35:10 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:35:10 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:35:10 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:35:10 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:35:10 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:36:06 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19704@despacho.local
+
+[2018-01-10 16:36:06 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:36:06 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:36:06 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:36:06 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:36:06 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:36:06 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:41:12 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19716@despacho.local
+
+[2018-01-10 16:41:12 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:41:12 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:41:12 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:41:12 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:41:12 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:41:12 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:43:07 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19718@despacho.local
+
+[2018-01-10 16:43:07 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:43:07 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:43:07 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:43:07 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:43:07 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:43:07 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:49:18 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19731@despacho.local
+
+[2018-01-10 16:49:18 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:49:18 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:49:18 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:49:18 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:49:18 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:49:18 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:50:41 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19735@despacho.local
+
+[2018-01-10 16:50:41 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:50:41 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:50:41 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:50:41 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:50:41 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:50:41 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:51:03 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19739@despacho.local
+
+[2018-01-10 16:51:03 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:51:03 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:51:03 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:51:03 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:51:03 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:51:03 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:51:19 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19741@despacho.local
+
+[2018-01-10 16:51:20 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:51:20 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:51:20 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:51:20 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:51:20 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:51:20 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:51:45 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19743@despacho.local
+
+[2018-01-10 16:51:46 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:51:46 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:51:46 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:51:46 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:51:46 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:51:46 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:52:00 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19745@despacho.local
+
+[2018-01-10 16:52:00 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:52:00 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:52:00 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:52:00 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:52:00 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:52:00 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:52:23 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19747@despacho.local
+
+[2018-01-10 16:52:23 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:52:23 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:52:23 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:52:23 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:52:23 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:52:23 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:53:09 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19749@despacho.local
+
+[2018-01-10 16:53:09 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:53:09 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:53:09 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:53:09 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:53:09 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:53:09 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:55:42 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19752@despacho.local
+
+[2018-01-10 16:55:42 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:55:42 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:55:42 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:55:42 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:55:42 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:55:42 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:56:17 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19756@despacho.local
+
+[2018-01-10 16:56:17 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:56:17 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:56:17 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:56:17 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:56:17 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:56:17 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:56:34 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19758@despacho.local
+
+[2018-01-10 16:56:34 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:56:34 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:56:34 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:56:34 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:56:34 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:56:34 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-01-10 16:56:58 #1 store] 
+Database '/Users/joniturrioz/Dropbox/workspace/Bet-2017/bets.temp' is opened by 19760@despacho.local
+
+[2018-01-10 16:56:58 #2 type.registry] 
+New type domain.Event
+
+[2018-01-10 16:56:58 #3 type] 
+Type domain.Event is not enhanced.
+
+[2018-01-10 16:56:58 #4 type.registry] 
+New type domain.Query
+
+[2018-01-10 16:56:58 #5 type.registry] 
+New type java.util.Vector<domain.Query>
+
+[2018-01-10 16:56:58 #6 type] 
+Type domain.Query is not enhanced.
+
+[2018-01-10 16:56:58 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+

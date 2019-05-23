@@ -1,0 +1,331 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>BetAndRuin</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- table -->
+    <link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/autofill/2.3.2/css/autoFill.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/buttons/1.5.4/css/buttons.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/colreorder/1.5.1/css/colReorder.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/keytable/2.5.0/css/keyTable.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/rowgroup/1.1.0/css/rowGroup.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/rowreorder/1.2.5/css/rowReorder.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/scroller/1.5.1/css/scroller.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/select/1.2.7/css/select.dataTables.min.css" rel="stylesheet">
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/autofill/2.3.2/js/dataTables.autoFill.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.4/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.4/js/buttons.colVis.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.4/js/buttons.flash.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.4/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.4/js/buttons.print.min.js"></script>
+    <script src="https://cdn.datatables.net/colreorder/1.5.1/js/dataTables.colReorder.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedcolumns/3.2.6/js/dataTables.fixedColumns.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
+    <script src="https://cdn.datatables.net/keytable/2.5.0/js/dataTables.keyTable.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/rowgroup/1.1.0/js/dataTables.rowGroup.min.js"></script>
+    <script src="https://cdn.datatables.net/rowreorder/1.2.5/js/dataTables.rowReorder.min.js"></script>
+    <script src="https://cdn.datatables.net/scroller/1.5.1/js/dataTables.scroller.min.js"></script>
+    <script src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
+    <style>
+        body {
+            font: 12px/15px Roboto, "Helvetica Neue", Helvetica, sans-serif;
+            padding: 20px;
+            background-color: #a1c4fd;
+        }
+
+        #wrapper {
+            margin: 0 auto;
+        }
+
+        select,
+        input,
+        .btn {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        .navbar {
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+        }
+
+        .panel {
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+        }
+
+        .panel-heading {
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+        }
+
+        /* CSS used here will be applied after bootstrap.css */
+        .mybtn {
+            float: left;
+            padding: 15px;
+            display: inline-block;
+        }
+
+        .mycontainer {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<script>
+    // $(document).ready(function () {
+    //   $('#table_id').DataTable();
+    //});
+    $(document).ready(function () {
+        $('#table_id2').DataTable();
+    });
+</script>
+<body>
+<div id="wrapper">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">BetAndRuin</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="/administration/adminmain">Home</a></li>
+                <li class="dropdown active">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Events
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/administration/adminEventSettings">Settings</a></li>
+                        <li><a href="/administration/adminallevents">All events</a></li>
+                        <li><a href="/administration/adminalleventsbycanbet">All events By can Bet</a></li>
+                        <li><a href="/administration/adminunresolvedevents">Unresolved Events</a></li>
+                        <li><a href="/administration/adminresolvedevents">Resolved Events</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Users
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/administration/adminusers">All Users</a></li>
+                        <li><a href="/administration/bannedusers">Banned Users</a></li>
+                    </ul>
+                </li>
+                <li><a href="/administration/adminnews">News</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Create
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/administration/admincreateevent">Event</a></li>
+                        <li><a href="/administration/admincreatenews">News</a></li>
+                    </ul>
+                </li>
+                <li><a href="/administration/adminstatistics">Statistics</a></li>
+                <li><a href="/administration/adminserverstatus">Server Status</a></li>
+                <li><a href="/administration/adminsettings">Settings</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/administration/logout"><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="panel panel-default" id="preview">
+        <div class="panel-heading">
+            <h1>Preview</h1>
+        </div>
+        <div class="panel-body" id="questionInfo">
+            <h2>Question ID:</h2>
+            <br>
+            <h4>1</h4>
+            <hr>
+            <h2>Question Name:</h2>
+            <br>
+            <h4>Who is going to win?</h4>
+            <hr>
+            <h2>Mode</h2>
+            <br>
+            <h4>Numeric Value</h4>
+            <hr>
+            <h2>Result</h2>
+            <br>
+            <h4>1-0</h4>
+            <hr>
+            <h2>Profit</h2>
+            <br>
+            <h4>15000</h4>
+            <br>
+            <h2>Bet amount</h2>
+            <br>
+            <h4>72000</h4>
+            <br>
+            <h2>User Wins</h2>
+            <br>
+            <h4>63</h4>
+            <br>
+            <h2>Answered</h2>
+            <br>
+            <h4>false</h4>
+        </div>
+    </div>
+    <div id="values">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h1>Set values</h1>
+            </div>
+            <div class="panel-body">
+                <table id="table_id" class="display">
+                    <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Update</th>
+                    </tr>
+                    </thead>
+                    <tbody id="events">
+                    <tr>
+                        <td>1</td>
+                        <form pattern="[^&]+" id="eventsDetails" action="/administration/admionQuestionUpdateSet" method="post">
+                            <td><input type="text" name="updateSetValue" value="Markel Cortazar"></td>
+                            <input type="hidden" name="updateSetOriginal" value="Markel Cortazar">
+                            <td>
+                                <div class="form-group text-left">
+                                    <button class="btn btn-default btn-lg" type="submit" id="questionSetUpdate"
+                                            name="QuestionSetUpdate" value="1">
+                                        Update
+                                    </button>
+                                </div>
+                            </td>
+                        </form>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="Bets">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h1>Bets</h1>
+            </div>
+            <div class="panel-body">
+                <table id="table_id2" class="display">
+                    <thead>
+                    <tr>
+                        <th>Bet ID</th>
+                        <th>Username</th>
+                        <th>User Prediction</th>
+                        <th>User Bet Amount</th>
+                        <th>User PayOff</th>
+                        <th>User Final Pay</th>
+                        <th>User winner</th>
+                    </tr>
+                    </thead>
+                    <tbody id="bet">
+                    <tr>
+                        <td>Bet ID</td>
+                        <td>Username</td>
+                        <td>User Prediction</td>
+                        <td>User Bet Amount</td>
+                        <td>User PayOff</td>
+                        <td>User Final Pay</td>
+                        <td>User winner</td>
+                    </tr>
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="Resolve Question">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h1>Answer Question</h1>
+            </div>
+            <div class="panel-body">
+                <form method="post" action="/administration/resolveQuestion" id="solveQuestion">
+                    <!--
+                    <input type="hidden" name="questionID" value="1">
+                    <input type="hidden" name="questionType" value="NumericValue">
+                    <input type="hidden" name="questionLength" value="1">
+                    <div class="form-group">
+                        <div class="col-xs-12">
+                            <label for="answer"><h4>Answer the question</h4></label>
+                            <input required type="number" class="form-control" name="answer" id="answer"
+                                   placeholder="Answer"
+                                   value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-xs-12">
+                            <hr>
+                            <button class="btn btn-lg btn-success" type="submit"><i
+                                    class="glyphicon glyphicon-ok-sign"></i> Answer
+                            </button>
+                            <button class=" btn btn-lg" type="reset"><i
+                                    class="glyphicon glyphicon-repeat"></i> Reset
+                            </button>
+                        </div>
+                    </div>
+                    -->
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--
+<div id="values2">
+    <div class="panel panel-default" id="preview2">
+        <div class="panel-heading">
+            <h1>Numeric Values</h1>
+        </div>
+        <div class="panel-body" id="questionInfo">
+            <h2>Length:</h2>
+            <br>
+            <h4>2</h4>
+            <hr>
+            <h2>Average Score:</h2>
+            <br>
+            <h4>2</h4>
+            <hr>
+            <h2>Maximum Expected Score:</h2>
+            <br>
+            <h4>22</h4>
+        </div>
+    </div>
+</div>
+-->
+<!--
+<div class="panel panel-default" id="delete">
+    <div class="panel-heading">
+        <h1>Delete Question</h1>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="form-group">
+                <div class="col-xs-6">
+                    <div class="form-group text-left">
+                        <form method="post" action="/administration/adminquestiondelete">
+                            <input type="hidden" name="eventID" value="1">
+                            <button class="btn btn-lg btn-danger" type="submit"><i
+                                    class="glyphicon glyphicon-ok-sign"></i>Delete Question
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+</div>
+</body>
+</html>
