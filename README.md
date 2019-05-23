@@ -9,6 +9,8 @@ Gambling webpage with a three-layer architecture and client-server based. Langua
 
   - "localhost" for the costumer GUI
   - "localhost/administration" for the administration GUI
+
+3.- Have fun
  
  # Testing
 
