@@ -7,8 +7,8 @@ execute: src/webServerV3/SimpleHTTPServer
 
 In Google Chrome/Firefox search for: 
 
-  - localhost for the costumer GUI
-  - localhost/administration for the administration GUI
+  - "localhost" for the costumer GUI
+  - "localhost/administration" for the administration GUI
 
 For testing:
 
