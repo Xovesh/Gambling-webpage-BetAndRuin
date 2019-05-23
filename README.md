@@ -5,4 +5,12 @@ Gambling webpage with a three-layer architecture and client-server based. Langua
 
 execute: src/webServerV3/SimpleHTTPServer
 
-In Google Chrome/Firefox search for: localhost
+In Google Chrome/Firefox search for: 
+
+  - localhost for the costumer GUI
+  - localhost/administration for the administration GUI
+
+For testing:
+
+Username: tractor
+Password: Patata
