@@ -18,7 +18,18 @@ For testing:
 
   - Username: tractor
   - Password: Patata
-  
+
+# Pictures
+
+![Screenshot](githubpictures/1.PNG)
+![Screenshot](githubpictures/2.PNG)
+![Screenshot](githubpictures/3.PNG)
+![Screenshot](githubpictures/4.PNG)
+![Screenshot](githubpictures/5.PNG)
+![Screenshot](githubpictures/6.PNG)
+![Screenshot](githubpictures/7.PNG)
+![Screenshot](githubpictures/8.PNG)
+
 # help
 
 If any help needed: carlosdbmac@gmail.com
