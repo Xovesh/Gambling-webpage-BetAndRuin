@@ -588,9 +588,9 @@ public class SimpleHTTPServer implements Runnable {
 			// cookie set-up only if you login
 			if (setUpCookie) {
 				out.println(
-						"Set-Cookie: " + stringHelp.get(0) + " Path=/; Expires=Fri, 4 Oct 2019 14:28:00 GMT; HttpOnly");
+						"Set-Cookie: " + stringHelp.get(0) + " Path=/; Expires=Fri, 4 Oct 2025 14:28:00 GMT; HttpOnly");
 				out.println(
-						"Set-Cookie: " + stringHelp.get(1) + " Path=/; Expires=Fri, 4 Oct 2019 14:28:00 GMT; HttpOnly");
+						"Set-Cookie: " + stringHelp.get(1) + " Path=/; Expires=Fri, 4 Oct 2025 14:28:00 GMT; HttpOnly");
 			}
 			out.println(); // blank line between headers and content, very important !
 			out.flush(); // flush character output stream buffer
